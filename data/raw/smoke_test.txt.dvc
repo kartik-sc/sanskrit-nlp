@@ -1,0 +1,6 @@
+outs:
+- md5: ed6203cba9ffe94369be97fd44609e7e
+  size: 149
+  isexec: true
+  hash: md5
+  path: smoke_test.txt

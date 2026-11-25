@@ -1,0 +1,7 @@
+[core]
+    remote = dagshub
+['remote "origin"']
+    url = https://dagshub.com/kartik-sc/sanskrit-nlp.dvc
+['remote "dagshub"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/kartik-sc/sanskrit-nlp.s3
