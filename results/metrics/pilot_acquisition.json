@@ -1,0 +1,21 @@
+{
+  "dataset": "ai4bharat/sangraha",
+  "subset": "verified/san",
+  "source": "hf://datasets/ai4bharat/sangraha/verified/san/*.parquet",
+  "sampling": "sequential",
+  "target_tokens": 100000,
+  "documents": 198,
+  "whitespace_tokens": 100424,
+  "code_points": 840721,
+  "source_types": {
+    "pdf": 184,
+    "web": 14
+  },
+  "raw_file": "data/raw/pilot.jsonl",
+  "raw_bytes": 2314678,
+  "raw_sha256": "e4963ddb61f0ff08928f2758db3137b993a2c4294bca146653f1e6d91b3fab1f",
+  "text_file": "data/interim/pilot.txt",
+  "text_bytes": 2290396,
+  "text_sha256": "1970cc92b0ce6f78fd44ceb8facae573fe74190bdc11f6022c34cab2782cda45",
+  "encoding": "UTF-8"
+}

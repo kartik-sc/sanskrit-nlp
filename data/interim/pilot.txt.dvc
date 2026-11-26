@@ -1,0 +1,6 @@
+outs:
+- md5: a86fd58e27ff7bb3c53e9b2bcd1795ab
+  size: 2290396
+  isexec: true
+  hash: md5
+  path: pilot.txt
