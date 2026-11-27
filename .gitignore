@@ -19,3 +19,16 @@ __pycache__/
 Thumbs.db
 
 /venv/
+
+# Runtime logs
+*.log
+
+# Temporary diagnostic datasets
+/data/raw/diagnostic_*.jsonl
+/data/raw/shuffle_test*.jsonl
+/data/interim/diagnostic_*.txt
+/data/interim/shuffle_test*.txt
+
+# Temporary diagnostic metrics
+/results/metrics/diagnostic_*.json
+/results/metrics/shuffle_test*.json

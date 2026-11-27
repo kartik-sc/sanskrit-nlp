@@ -1,0 +1,5 @@
+outs:
+- md5: 82cd7a93f81638bd833aa1472ad87989
+  size: 22679145
+  hash: md5
+  path: working_1m.txt

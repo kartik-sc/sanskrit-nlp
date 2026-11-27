@@ -1,0 +1,5 @@
+outs:
+- md5: c1ce849cbc214cfa726fe629ab009ed8
+  size: 22912968
+  hash: md5
+  path: normalized_corpus.jsonl

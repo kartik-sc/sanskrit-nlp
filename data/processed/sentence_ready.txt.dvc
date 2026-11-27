@@ -1,0 +1,5 @@
+outs:
+- md5: a9034de92103ef5ecdc2e26c93658606
+  size: 22676199
+  hash: md5
+  path: sentence_ready.txt
