@@ -1,0 +1,5 @@
+outs:
+- md5: aea874b5b49aaeeb0d30e3e0377382c3
+  size: 21225869
+  hash: md5
+  path: clean_corpus.txt
