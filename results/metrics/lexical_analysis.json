@@ -1,0 +1,9221 @@
+{
+  "Raw": {
+    "name": "Raw",
+    "file_path": "data\\interim\\working_1m.txt",
+    "summary": {
+      "tokens": 1000256,
+      "types": 436105,
+      "type_token_ratio": 0.4359933856932625,
+      "ttr_percentage": 43.6,
+      "hapax_legomena": 375452,
+      "hapax_type_percentage": 86.09,
+      "hapax_token_percentage": 37.54,
+      "dis_legomena": 30510
+    },
+    "coverage": {
+      "10%": {
+        "target_coverage": 0.1,
+        "types_required": 2,
+        "type_percentage": 0.0005,
+        "tokens_accumulated": 111854,
+        "actual_coverage": 0.111825
+      },
+      "25%": {
+        "target_coverage": 0.25,
+        "types_required": 90,
+        "type_percentage": 0.0206,
+        "tokens_accumulated": 250196,
+        "actual_coverage": 0.250132
+      },
+      "50%": {
+        "target_coverage": 0.5,
+        "types_required": 12416,
+        "type_percentage": 2.847,
+        "tokens_accumulated": 500129,
+        "actual_coverage": 0.500001
+      },
+      "75%": {
+        "target_coverage": 0.75,
+        "types_required": 186041,
+        "type_percentage": 42.6597,
+        "tokens_accumulated": 750192,
+        "actual_coverage": 0.75
+      },
+      "90%": {
+        "target_coverage": 0.9,
+        "types_required": 336080,
+        "type_percentage": 77.064,
+        "tokens_accumulated": 900231,
+        "actual_coverage": 0.900001
+      },
+      "95%": {
+        "target_coverage": 0.95,
+        "types_required": 386093,
+        "type_percentage": 88.5321,
+        "tokens_accumulated": 950244,
+        "actual_coverage": 0.950001
+      },
+      "99%": {
+        "target_coverage": 0.99,
+        "types_required": 426103,
+        "type_percentage": 97.7065,
+        "tokens_accumulated": 990254,
+        "actual_coverage": 0.990001
+      }
+    },
+    "zipf": {
+      "slope": -0.4543,
+      "zipf_exponent_s": 0.4543,
+      "intercept": 2.4397,
+      "r_squared": 0.7375
+    },
+    "top_words": [
+      {
+        "rank": 1,
+        "word": "।",
+        "frequency": 88319,
+        "percentage": 8.8296
+      },
+      {
+        "rank": 2,
+        "word": "॥",
+        "frequency": 23535,
+        "percentage": 2.3529
+      },
+      {
+        "rank": 3,
+        "word": "इति",
+        "frequency": 13181,
+        "percentage": 1.3178
+      },
+      {
+        "rank": 4,
+        "word": "न",
+        "frequency": 11488,
+        "percentage": 1.1485
+      },
+      {
+        "rank": 5,
+        "word": "च",
+        "frequency": 10472,
+        "percentage": 1.0469
+      },
+      {
+        "rank": 6,
+        "word": "-",
+        "frequency": 9269,
+        "percentage": 0.9267
+      },
+      {
+        "rank": 7,
+        "word": "वा",
+        "frequency": 3964,
+        "percentage": 0.3963
+      },
+      {
+        "rank": 8,
+        "word": "।।",
+        "frequency": 3851,
+        "percentage": 0.385
+      },
+      {
+        "rank": 9,
+        "word": "तु",
+        "frequency": 3808,
+        "percentage": 0.3807
+      },
+      {
+        "rank": 10,
+        "word": "एव",
+        "frequency": 3077,
+        "percentage": 0.3076
+      },
+      {
+        "rank": 11,
+        "word": "तथा",
+        "frequency": 3046,
+        "percentage": 0.3045
+      },
+      {
+        "rank": 12,
+        "word": "स",
+        "frequency": 2951,
+        "percentage": 0.295
+      },
+      {
+        "rank": 13,
+        "word": ")",
+        "frequency": 2766,
+        "percentage": 0.2765
+      },
+      {
+        "rank": 14,
+        "word": "(",
+        "frequency": 2583,
+        "percentage": 0.2582
+      },
+      {
+        "rank": 15,
+        "word": "हि",
+        "frequency": 2493,
+        "percentage": 0.2492
+      },
+      {
+        "rank": 16,
+        "word": "तत्र",
+        "frequency": 2347,
+        "percentage": 0.2346
+      },
+      {
+        "rank": 17,
+        "word": "एवं",
+        "frequency": 2137,
+        "percentage": 0.2136
+      },
+      {
+        "rank": 18,
+        "word": "भवति",
+        "frequency": 1859,
+        "percentage": 0.1859
+      },
+      {
+        "rank": 19,
+        "word": "तस्य",
+        "frequency": 1695,
+        "percentage": 0.1695
+      },
+      {
+        "rank": 20,
+        "word": "?",
+        "frequency": 1692,
+        "percentage": 0.1692
+      },
+      {
+        "rank": 21,
+        "word": "यथा",
+        "frequency": 1665,
+        "percentage": 0.1665
+      },
+      {
+        "rank": 22,
+        "word": "१",
+        "frequency": 1604,
+        "percentage": 0.1604
+      },
+      {
+        "rank": 23,
+        "word": "ते",
+        "frequency": 1591,
+        "percentage": 0.1591
+      },
+      {
+        "rank": 24,
+        "word": "भावः",
+        "frequency": 1478,
+        "percentage": 0.1478
+      },
+      {
+        "rank": 25,
+        "word": "\"",
+        "frequency": 1306,
+        "percentage": 0.1306
+      },
+      {
+        "rank": 26,
+        "word": "२",
+        "frequency": 1276,
+        "percentage": 0.1276
+      },
+      {
+        "rank": 27,
+        "word": "किं",
+        "frequency": 1270,
+        "percentage": 0.127
+      },
+      {
+        "rank": 28,
+        "word": "!",
+        "frequency": 1249,
+        "percentage": 0.1249
+      },
+      {
+        "rank": 29,
+        "word": "तेन",
+        "frequency": 1163,
+        "percentage": 0.1163
+      },
+      {
+        "rank": 30,
+        "word": "अथ",
+        "frequency": 1151,
+        "percentage": 0.1151
+      },
+      {
+        "rank": 31,
+        "word": "स्यात्",
+        "frequency": 1102,
+        "percentage": 0.1102
+      },
+      {
+        "rank": 32,
+        "word": "'",
+        "frequency": 1065,
+        "percentage": 0.1065
+      },
+      {
+        "rank": 33,
+        "word": "ननु",
+        "frequency": 1059,
+        "percentage": 0.1059
+      },
+      {
+        "rank": 34,
+        "word": "यदि",
+        "frequency": 1056,
+        "percentage": 0.1056
+      },
+      {
+        "rank": 35,
+        "word": "के",
+        "frequency": 1055,
+        "percentage": 0.1055
+      },
+      {
+        "rank": 36,
+        "word": "व",
+        "frequency": 979,
+        "percentage": 0.0979
+      },
+      {
+        "rank": 37,
+        "word": "३",
+        "frequency": 962,
+        "percentage": 0.0962
+      },
+      {
+        "rank": 38,
+        "word": "अत्र",
+        "frequency": 943,
+        "percentage": 0.0943
+      },
+      {
+        "rank": 39,
+        "word": "सा",
+        "frequency": 920,
+        "percentage": 0.092
+      },
+      {
+        "rank": 40,
+        "word": "का",
+        "frequency": 918,
+        "percentage": 0.0918
+      },
+      {
+        "rank": 41,
+        "word": "ति",
+        "frequency": 898,
+        "percentage": 0.0898
+      },
+      {
+        "rank": 42,
+        "word": "से",
+        "frequency": 874,
+        "percentage": 0.0874
+      },
+      {
+        "rank": 43,
+        "word": "इत्यर्थः",
+        "frequency": 871,
+        "percentage": 0.0871
+      },
+      {
+        "rank": 44,
+        "word": "या",
+        "frequency": 871,
+        "percentage": 0.0871
+      },
+      {
+        "rank": 45,
+        "word": "तदा",
+        "frequency": 844,
+        "percentage": 0.0844
+      },
+      {
+        "rank": 46,
+        "word": "तं",
+        "frequency": 838,
+        "percentage": 0.0838
+      },
+      {
+        "rank": 47,
+        "word": "मे",
+        "frequency": 807,
+        "percentage": 0.0807
+      },
+      {
+        "rank": 48,
+        "word": "कथं",
+        "frequency": 801,
+        "percentage": 0.0801
+      },
+      {
+        "rank": 49,
+        "word": "]",
+        "frequency": 797,
+        "percentage": 0.0797
+      },
+      {
+        "rank": 50,
+        "word": "ततः",
+        "frequency": 778,
+        "percentage": 0.0778
+      },
+      {
+        "rank": 51,
+        "word": "[",
+        "frequency": 767,
+        "percentage": 0.0767
+      },
+      {
+        "rank": 52,
+        "word": "४",
+        "frequency": 761,
+        "percentage": 0.0761
+      },
+      {
+        "rank": 53,
+        "word": "अत",
+        "frequency": 758,
+        "percentage": 0.0758
+      },
+      {
+        "rank": 54,
+        "word": "ये",
+        "frequency": 746,
+        "percentage": 0.0746
+      },
+      {
+        "rank": 55,
+        "word": "सति",
+        "frequency": 737,
+        "percentage": 0.0737
+      },
+      {
+        "rank": 56,
+        "word": "नाम",
+        "frequency": 725,
+        "percentage": 0.0725
+      },
+      {
+        "rank": 57,
+        "word": "the",
+        "frequency": 718,
+        "percentage": 0.0718
+      },
+      {
+        "rank": 58,
+        "word": "य",
+        "frequency": 697,
+        "percentage": 0.0697
+      },
+      {
+        "rank": 59,
+        "word": "यस्य",
+        "frequency": 680,
+        "percentage": 0.068
+      },
+      {
+        "rank": 60,
+        "word": "यो",
+        "frequency": 680,
+        "percentage": 0.068
+      },
+      {
+        "rank": 61,
+        "word": "हे",
+        "frequency": 673,
+        "percentage": 0.0673
+      },
+      {
+        "rank": 62,
+        "word": "*",
+        "frequency": 658,
+        "percentage": 0.0658
+      },
+      {
+        "rank": 63,
+        "word": "अपि",
+        "frequency": 621,
+        "percentage": 0.0621
+      },
+      {
+        "rank": 64,
+        "word": "५",
+        "frequency": 619,
+        "percentage": 0.0619
+      },
+      {
+        "rank": 65,
+        "word": "यत्र",
+        "frequency": 615,
+        "percentage": 0.0615
+      },
+      {
+        "rank": 66,
+        "word": "प्रति",
+        "frequency": 597,
+        "percentage": 0.0597
+      },
+      {
+        "rank": 67,
+        "word": "पुनः",
+        "frequency": 592,
+        "percentage": 0.0592
+      },
+      {
+        "rank": 68,
+        "word": ":",
+        "frequency": 591,
+        "percentage": 0.0591
+      },
+      {
+        "rank": 69,
+        "word": "तत्",
+        "frequency": 590,
+        "percentage": 0.059
+      },
+      {
+        "rank": 70,
+        "word": "कृत्वा",
+        "frequency": 582,
+        "percentage": 0.0582
+      },
+      {
+        "rank": 71,
+        "word": "को",
+        "frequency": 581,
+        "percentage": 0.0581
+      },
+      {
+        "rank": 72,
+        "word": "६",
+        "frequency": 569,
+        "percentage": 0.0569
+      },
+      {
+        "rank": 73,
+        "word": "सह",
+        "frequency": 568,
+        "percentage": 0.0568
+      },
+      {
+        "rank": 74,
+        "word": "ततो",
+        "frequency": 567,
+        "percentage": 0.0567
+      },
+      {
+        "rank": 75,
+        "word": "है",
+        "frequency": 545,
+        "percentage": 0.0545
+      },
+      {
+        "rank": 76,
+        "word": ";",
+        "frequency": 521,
+        "percentage": 0.0521
+      },
+      {
+        "rank": 77,
+        "word": "इव",
+        "frequency": 502,
+        "percentage": 0.0502
+      },
+      {
+        "rank": 78,
+        "word": "चेत्",
+        "frequency": 500,
+        "percentage": 0.05
+      },
+      {
+        "rank": 79,
+        "word": "मा",
+        "frequency": 500,
+        "percentage": 0.05
+      },
+      {
+        "rank": 80,
+        "word": "में",
+        "frequency": 493,
+        "percentage": 0.0493
+      },
+      {
+        "rank": 81,
+        "word": "यः",
+        "frequency": 487,
+        "percentage": 0.0487
+      },
+      {
+        "rank": 82,
+        "word": "तर्हि",
+        "frequency": 484,
+        "percentage": 0.0484
+      },
+      {
+        "rank": 83,
+        "word": "of",
+        "frequency": 482,
+        "percentage": 0.0482
+      },
+      {
+        "rank": 84,
+        "word": "तेषां",
+        "frequency": 481,
+        "percentage": 0.0481
+      },
+      {
+        "rank": 85,
+        "word": "यत्",
+        "frequency": 481,
+        "percentage": 0.0481
+      },
+      {
+        "rank": 86,
+        "word": "मम",
+        "frequency": 472,
+        "percentage": 0.0472
+      },
+      {
+        "rank": 87,
+        "word": "तो",
+        "frequency": 466,
+        "percentage": 0.0466
+      },
+      {
+        "rank": 88,
+        "word": "यदा",
+        "frequency": 459,
+        "percentage": 0.0459
+      },
+      {
+        "rank": 89,
+        "word": "१०",
+        "frequency": 458,
+        "percentage": 0.0458
+      },
+      {
+        "rank": 90,
+        "word": "मिति",
+        "frequency": 449,
+        "percentage": 0.0449
+      },
+      {
+        "rank": 91,
+        "word": "७",
+        "frequency": 440,
+        "percentage": 0.044
+      },
+      {
+        "rank": 92,
+        "word": "येन",
+        "frequency": 437,
+        "percentage": 0.0437
+      },
+      {
+        "rank": 93,
+        "word": "आह",
+        "frequency": 426,
+        "percentage": 0.0426
+      },
+      {
+        "rank": 94,
+        "word": "इत्यादि",
+        "frequency": 412,
+        "percentage": 0.0412
+      },
+      {
+        "rank": 95,
+        "word": "वै",
+        "frequency": 411,
+        "percentage": 0.0411
+      },
+      {
+        "rank": 96,
+        "word": "चेति",
+        "frequency": 408,
+        "percentage": 0.0408
+      },
+      {
+        "rank": 97,
+        "word": "सः",
+        "frequency": 408,
+        "percentage": 0.0408
+      },
+      {
+        "rank": 98,
+        "word": "=",
+        "frequency": 407,
+        "percentage": 0.0407
+      },
+      {
+        "rank": 99,
+        "word": "८",
+        "frequency": 404,
+        "percentage": 0.0404
+      },
+      {
+        "rank": 100,
+        "word": "अन्यथा",
+        "frequency": 402,
+        "percentage": 0.0402
+      },
+      {
+        "rank": 101,
+        "word": "त",
+        "frequency": 394,
+        "percentage": 0.0394
+      },
+      {
+        "rank": 102,
+        "word": "सर्वे",
+        "frequency": 393,
+        "percentage": 0.0393
+      },
+      {
+        "rank": 103,
+        "word": "भवेत्",
+        "frequency": 386,
+        "percentage": 0.0386
+      },
+      {
+        "rank": 104,
+        "word": "इत्यत्र",
+        "frequency": 381,
+        "percentage": 0.0381
+      },
+      {
+        "rank": 105,
+        "word": "तथापि",
+        "frequency": 378,
+        "percentage": 0.0378
+      },
+      {
+        "rank": 106,
+        "word": "इह",
+        "frequency": 376,
+        "percentage": 0.0376
+      },
+      {
+        "rank": 107,
+        "word": "कि",
+        "frequency": 375,
+        "percentage": 0.0375
+      },
+      {
+        "rank": 108,
+        "word": "अतः",
+        "frequency": 372,
+        "percentage": 0.0372
+      },
+      {
+        "rank": 109,
+        "word": "नास्ति",
+        "frequency": 372,
+        "percentage": 0.0372
+      },
+      {
+        "rank": 110,
+        "word": "११",
+        "frequency": 363,
+        "percentage": 0.0363
+      },
+      {
+        "rank": 111,
+        "word": "भवन्ति",
+        "frequency": 357,
+        "percentage": 0.0357
+      },
+      {
+        "rank": 112,
+        "word": "द्वे",
+        "frequency": 356,
+        "percentage": 0.0356
+      },
+      {
+        "rank": 113,
+        "word": "कर्म",
+        "frequency": 353,
+        "percentage": 0.0353
+      },
+      {
+        "rank": 114,
+        "word": "म",
+        "frequency": 352,
+        "percentage": 0.0352
+      },
+      {
+        "rank": 115,
+        "word": "मया",
+        "frequency": 349,
+        "percentage": 0.0349
+      },
+      {
+        "rank": 116,
+        "word": "परं",
+        "frequency": 348,
+        "percentage": 0.0348
+      },
+      {
+        "rank": 117,
+        "word": "यावत्",
+        "frequency": 348,
+        "percentage": 0.0348
+      },
+      {
+        "rank": 118,
+        "word": "राजा",
+        "frequency": 339,
+        "percentage": 0.0339
+      },
+      {
+        "rank": 119,
+        "word": "शेषः",
+        "frequency": 337,
+        "percentage": 0.0337
+      },
+      {
+        "rank": 120,
+        "word": "किन्तु",
+        "frequency": 334,
+        "percentage": 0.0334
+      },
+      {
+        "rank": 121,
+        "word": "सर्व",
+        "frequency": 332,
+        "percentage": 0.0332
+      },
+      {
+        "rank": 122,
+        "word": "तव",
+        "frequency": 331,
+        "percentage": 0.0331
+      },
+      {
+        "rank": 123,
+        "word": "और",
+        "frequency": 329,
+        "percentage": 0.0329
+      },
+      {
+        "rank": 124,
+        "word": "१२",
+        "frequency": 329,
+        "percentage": 0.0329
+      },
+      {
+        "rank": 125,
+        "word": "की",
+        "frequency": 325,
+        "percentage": 0.0325
+      },
+      {
+        "rank": 126,
+        "word": "त्वं",
+        "frequency": 325,
+        "percentage": 0.0325
+      },
+      {
+        "rank": 127,
+        "word": "नो",
+        "frequency": 325,
+        "percentage": 0.0325
+      },
+      {
+        "rank": 128,
+        "word": "वि",
+        "frequency": 323,
+        "percentage": 0.0323
+      },
+      {
+        "rank": 129,
+        "word": "क",
+        "frequency": 322,
+        "percentage": 0.0322
+      },
+      {
+        "rank": 130,
+        "word": "इदं",
+        "frequency": 318,
+        "percentage": 0.0318
+      },
+      {
+        "rank": 131,
+        "word": "--",
+        "frequency": 316,
+        "percentage": 0.0316
+      },
+      {
+        "rank": 132,
+        "word": "ॐ",
+        "frequency": 314,
+        "percentage": 0.0314
+      },
+      {
+        "rank": 133,
+        "word": "वाच्यम्",
+        "frequency": 308,
+        "percentage": 0.0308
+      },
+      {
+        "rank": 134,
+        "word": "स्यादिति",
+        "frequency": 301,
+        "percentage": 0.0301
+      },
+      {
+        "rank": 135,
+        "word": "९",
+        "frequency": 297,
+        "percentage": 0.0297
+      },
+      {
+        "rank": 136,
+        "word": "1",
+        "frequency": 293,
+        "percentage": 0.0293
+      },
+      {
+        "rank": 137,
+        "word": "१५",
+        "frequency": 293,
+        "percentage": 0.0293
+      },
+      {
+        "rank": 138,
+        "word": "पूर्व",
+        "frequency": 292,
+        "percentage": 0.0292
+      },
+      {
+        "rank": 139,
+        "word": "and",
+        "frequency": 291,
+        "percentage": 0.0291
+      },
+      {
+        "rank": 140,
+        "word": "यद्यपि",
+        "frequency": 291,
+        "percentage": 0.0291
+      },
+      {
+        "rank": 141,
+        "word": "अतो",
+        "frequency": 285,
+        "percentage": 0.0285
+      },
+      {
+        "rank": 142,
+        "word": "१३",
+        "frequency": 285,
+        "percentage": 0.0285
+      },
+      {
+        "rank": 143,
+        "word": "पर",
+        "frequency": 279,
+        "percentage": 0.0279
+      },
+      {
+        "rank": 144,
+        "word": "२०",
+        "frequency": 275,
+        "percentage": 0.0275
+      },
+      {
+        "rank": 145,
+        "word": "सदा",
+        "frequency": 274,
+        "percentage": 0.0274
+      },
+      {
+        "rank": 146,
+        "word": "भवतीति",
+        "frequency": 273,
+        "percentage": 0.0273
+      },
+      {
+        "rank": 147,
+        "word": "in",
+        "frequency": 272,
+        "percentage": 0.0272
+      },
+      {
+        "rank": 148,
+        "word": "सो",
+        "frequency": 272,
+        "percentage": 0.0272
+      },
+      {
+        "rank": 149,
+        "word": "विना",
+        "frequency": 271,
+        "percentage": 0.0271
+      },
+      {
+        "rank": 150,
+        "word": "तस्मात्",
+        "frequency": 270,
+        "percentage": 0.027
+      },
+      {
+        "rank": 151,
+        "word": "भवति,",
+        "frequency": 269,
+        "percentage": 0.0269
+      },
+      {
+        "rank": 152,
+        "word": "हो",
+        "frequency": 269,
+        "percentage": 0.0269
+      },
+      {
+        "rank": 153,
+        "word": "अस्य",
+        "frequency": 268,
+        "percentage": 0.0268
+      },
+      {
+        "rank": 154,
+        "word": "पाठः",
+        "frequency": 268,
+        "percentage": 0.0268
+      },
+      {
+        "rank": 155,
+        "word": "तथाच",
+        "frequency": 266,
+        "percentage": 0.0266
+      },
+      {
+        "rank": 156,
+        "word": "१.",
+        "frequency": 265,
+        "percentage": 0.0265
+      },
+      {
+        "rank": 157,
+        "word": "अथवा",
+        "frequency": 264,
+        "percentage": 0.0264
+      },
+      {
+        "rank": 158,
+        "word": "खलु",
+        "frequency": 264,
+        "percentage": 0.0264
+      },
+      {
+        "rank": 159,
+        "word": "मां",
+        "frequency": 264,
+        "percentage": 0.0264
+      },
+      {
+        "rank": 160,
+        "word": "१४",
+        "frequency": 255,
+        "percentage": 0.0255
+      },
+      {
+        "rank": 161,
+        "word": "by",
+        "frequency": 254,
+        "percentage": 0.0254
+      },
+      {
+        "rank": 162,
+        "word": "अयं",
+        "frequency": 253,
+        "percentage": 0.0253
+      },
+      {
+        "rank": 163,
+        "word": "ब्रह्म",
+        "frequency": 253,
+        "percentage": 0.0253
+      },
+      {
+        "rank": 164,
+        "word": "लोके",
+        "frequency": 250,
+        "percentage": 0.025
+      },
+      {
+        "rank": 165,
+        "word": "ने",
+        "frequency": 248,
+        "percentage": 0.0248
+      },
+      {
+        "rank": 166,
+        "word": "सर्वत्र",
+        "frequency": 246,
+        "percentage": 0.0246
+      },
+      {
+        "rank": 167,
+        "word": "१८",
+        "frequency": 245,
+        "percentage": 0.0245
+      },
+      {
+        "rank": 168,
+        "word": "इति,",
+        "frequency": 241,
+        "percentage": 0.0241
+      },
+      {
+        "rank": 169,
+        "word": "र",
+        "frequency": 241,
+        "percentage": 0.0241
+      },
+      {
+        "rank": 170,
+        "word": "श्री",
+        "frequency": 241,
+        "percentage": 0.0241
+      },
+      {
+        "rank": 171,
+        "word": "मध्ये",
+        "frequency": 238,
+        "percentage": 0.0238
+      },
+      {
+        "rank": 172,
+        "word": "करोति",
+        "frequency": 237,
+        "percentage": 0.0237
+      },
+      {
+        "rank": 173,
+        "word": "तथैव",
+        "frequency": 233,
+        "percentage": 0.0233
+      },
+      {
+        "rank": 174,
+        "word": "णं",
+        "frequency": 232,
+        "percentage": 0.0232
+      },
+      {
+        "rank": 175,
+        "word": "कृते",
+        "frequency": 229,
+        "percentage": 0.0229
+      },
+      {
+        "rank": 176,
+        "word": "१६",
+        "frequency": 228,
+        "percentage": 0.0228
+      },
+      {
+        "rank": 177,
+        "word": "एक",
+        "frequency": 227,
+        "percentage": 0.0227
+      },
+      {
+        "rank": 178,
+        "word": "तत्थ",
+        "frequency": 227,
+        "percentage": 0.0227
+      },
+      {
+        "rank": 179,
+        "word": "०",
+        "frequency": 225,
+        "percentage": 0.0225
+      },
+      {
+        "rank": 180,
+        "word": "is",
+        "frequency": 221,
+        "percentage": 0.0221
+      },
+      {
+        "rank": 181,
+        "word": "इत्यमरः",
+        "frequency": 221,
+        "percentage": 0.0221
+      },
+      {
+        "rank": 182,
+        "word": "पि",
+        "frequency": 220,
+        "percentage": 0.022
+      },
+      {
+        "rank": 183,
+        "word": "एवेति",
+        "frequency": 219,
+        "percentage": 0.0219
+      },
+      {
+        "rank": 184,
+        "word": "ता",
+        "frequency": 219,
+        "percentage": 0.0219
+      },
+      {
+        "rank": 185,
+        "word": "तां",
+        "frequency": 219,
+        "percentage": 0.0219
+      },
+      {
+        "rank": 186,
+        "word": "तदेव",
+        "frequency": 218,
+        "percentage": 0.0218
+      },
+      {
+        "rank": 187,
+        "word": "नमः",
+        "frequency": 217,
+        "percentage": 0.0217
+      },
+      {
+        "rank": 188,
+        "word": "इत्यादिना",
+        "frequency": 215,
+        "percentage": 0.0215
+      },
+      {
+        "rank": 189,
+        "word": "ज्ञानं",
+        "frequency": 214,
+        "percentage": 0.0214
+      },
+      {
+        "rank": 190,
+        "word": "भविष्यति",
+        "frequency": 214,
+        "percentage": 0.0214
+      },
+      {
+        "rank": 191,
+        "word": "तस्मिन्",
+        "frequency": 212,
+        "percentage": 0.0212
+      },
+      {
+        "rank": 192,
+        "word": "अनेन",
+        "frequency": 211,
+        "percentage": 0.0211
+      },
+      {
+        "rank": 193,
+        "word": "१७",
+        "frequency": 209,
+        "percentage": 0.0209
+      },
+      {
+        "rank": 194,
+        "word": "+",
+        "frequency": 208,
+        "percentage": 0.0208
+      },
+      {
+        "rank": 195,
+        "word": "ततश्च",
+        "frequency": 208,
+        "percentage": 0.0208
+      },
+      {
+        "rank": 196,
+        "word": "पञ्च",
+        "frequency": 208,
+        "percentage": 0.0208
+      },
+      {
+        "rank": 197,
+        "word": "ह",
+        "frequency": 208,
+        "percentage": 0.0208
+      },
+      {
+        "rank": 198,
+        "word": "एतेन",
+        "frequency": 206,
+        "percentage": 0.0206
+      },
+      {
+        "rank": 199,
+        "word": "एष",
+        "frequency": 205,
+        "percentage": 0.0205
+      },
+      {
+        "rank": 200,
+        "word": "किम्",
+        "frequency": 204,
+        "percentage": 0.0204
+      },
+      {
+        "rank": 201,
+        "word": "जुहुयात्",
+        "frequency": 204,
+        "percentage": 0.0204
+      },
+      {
+        "rank": 202,
+        "word": "तत",
+        "frequency": 204,
+        "percentage": 0.0204
+      },
+      {
+        "rank": 203,
+        "word": "ही",
+        "frequency": 204,
+        "percentage": 0.0204
+      },
+      {
+        "rank": 204,
+        "word": "स्वयं",
+        "frequency": 203,
+        "percentage": 0.0203
+      },
+      {
+        "rank": 205,
+        "word": "इत्याह",
+        "frequency": 202,
+        "percentage": 0.0202
+      },
+      {
+        "rank": 206,
+        "word": "जो",
+        "frequency": 202,
+        "percentage": 0.0202
+      },
+      {
+        "rank": 207,
+        "word": "२५",
+        "frequency": 202,
+        "percentage": 0.0202
+      },
+      {
+        "rank": 208,
+        "word": "अहं",
+        "frequency": 201,
+        "percentage": 0.0201
+      },
+      {
+        "rank": 209,
+        "word": "यतः",
+        "frequency": 201,
+        "percentage": 0.0201
+      },
+      {
+        "rank": 210,
+        "word": "यद्वा",
+        "frequency": 201,
+        "percentage": 0.0201
+      },
+      {
+        "rank": 211,
+        "word": "२२",
+        "frequency": 201,
+        "percentage": 0.0201
+      },
+      {
+        "rank": 212,
+        "word": "२१",
+        "frequency": 200,
+        "percentage": 0.02
+      },
+      {
+        "rank": 213,
+        "word": "२.",
+        "frequency": 199,
+        "percentage": 0.0199
+      },
+      {
+        "rank": 214,
+        "word": "to",
+        "frequency": 197,
+        "percentage": 0.0197
+      },
+      {
+        "rank": 215,
+        "word": "चैव",
+        "frequency": 197,
+        "percentage": 0.0197
+      },
+      {
+        "rank": 216,
+        "word": "ना",
+        "frequency": 197,
+        "percentage": 0.0197
+      },
+      {
+        "rank": 217,
+        "word": "सूत्रे",
+        "frequency": 197,
+        "percentage": 0.0197
+      },
+      {
+        "rank": 218,
+        "word": "तथाहि",
+        "frequency": 196,
+        "percentage": 0.0196
+      },
+      {
+        "rank": 219,
+        "word": "इत्यस्य",
+        "frequency": 195,
+        "percentage": 0.0195
+      },
+      {
+        "rank": 220,
+        "word": "उवाच",
+        "frequency": 195,
+        "percentage": 0.0195
+      },
+      {
+        "rank": 221,
+        "word": "नहि",
+        "frequency": 195,
+        "percentage": 0.0195
+      },
+      {
+        "rank": 222,
+        "word": "विशेष",
+        "frequency": 195,
+        "percentage": 0.0195
+      },
+      {
+        "rank": 223,
+        "word": "नं",
+        "frequency": 192,
+        "percentage": 0.0192
+      },
+      {
+        "rank": 224,
+        "word": "नापि",
+        "frequency": 192,
+        "percentage": 0.0192
+      },
+      {
+        "rank": 225,
+        "word": "इस",
+        "frequency": 191,
+        "percentage": 0.0191
+      },
+      {
+        "rank": 226,
+        "word": "दृश्यते",
+        "frequency": 191,
+        "percentage": 0.0191
+      },
+      {
+        "rank": 227,
+        "word": "(१)",
+        "frequency": 189,
+        "percentage": 0.0189
+      },
+      {
+        "rank": 228,
+        "word": "दर्शयति",
+        "frequency": 187,
+        "percentage": 0.0187
+      },
+      {
+        "rank": 229,
+        "word": "केवलं",
+        "frequency": 186,
+        "percentage": 0.0186
+      },
+      {
+        "rank": 230,
+        "word": "तानि",
+        "frequency": 185,
+        "percentage": 0.0185
+      },
+      {
+        "rank": 231,
+        "word": "यह",
+        "frequency": 182,
+        "percentage": 0.0182
+      },
+      {
+        "rank": 232,
+        "word": "खः",
+        "frequency": 179,
+        "percentage": 0.0179
+      },
+      {
+        "rank": 233,
+        "word": "तच्च",
+        "frequency": 179,
+        "percentage": 0.0179
+      },
+      {
+        "rank": 234,
+        "word": "दश",
+        "frequency": 179,
+        "percentage": 0.0179
+      },
+      {
+        "rank": 235,
+        "word": "३०",
+        "frequency": 178,
+        "percentage": 0.0178
+      },
+      {
+        "rank": 236,
+        "word": "इत्यादौ",
+        "frequency": 177,
+        "percentage": 0.0177
+      },
+      {
+        "rank": 237,
+        "word": "कः",
+        "frequency": 177,
+        "percentage": 0.0177
+      },
+      {
+        "rank": 238,
+        "word": "सन्ति",
+        "frequency": 177,
+        "percentage": 0.0177
+      },
+      {
+        "rank": 239,
+        "word": "२८",
+        "frequency": 177,
+        "percentage": 0.0177
+      },
+      {
+        "rank": 240,
+        "word": "पक्षे",
+        "frequency": 176,
+        "percentage": 0.0176
+      },
+      {
+        "rank": 241,
+        "word": "अस्ति",
+        "frequency": 174,
+        "percentage": 0.0174
+      },
+      {
+        "rank": 242,
+        "word": "स्म",
+        "frequency": 174,
+        "percentage": 0.0174
+      },
+      {
+        "rank": 243,
+        "word": "क्रियते",
+        "frequency": 172,
+        "percentage": 0.0172
+      },
+      {
+        "rank": 244,
+        "word": "बोध्यम्",
+        "frequency": 172,
+        "percentage": 0.0172
+      },
+      {
+        "rank": 245,
+        "word": "।\"",
+        "frequency": 172,
+        "percentage": 0.0172
+      },
+      {
+        "rank": 246,
+        "word": "एते",
+        "frequency": 171,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 247,
+        "word": "जायते",
+        "frequency": 171,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 248,
+        "word": "रूप",
+        "frequency": 171,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 249,
+        "word": "(२)",
+        "frequency": 170,
+        "percentage": 0.017
+      },
+      {
+        "rank": 250,
+        "word": "तत्रैव",
+        "frequency": 170,
+        "percentage": 0.017
+      },
+      {
+        "rank": 251,
+        "word": "•",
+        "frequency": 170,
+        "percentage": 0.017
+      },
+      {
+        "rank": 252,
+        "word": "नच",
+        "frequency": 169,
+        "percentage": 0.0169
+      },
+      {
+        "rank": 253,
+        "word": "फलं",
+        "frequency": 169,
+        "percentage": 0.0169
+      },
+      {
+        "rank": 254,
+        "word": "सन्",
+        "frequency": 169,
+        "percentage": 0.0169
+      },
+      {
+        "rank": 255,
+        "word": "अ",
+        "frequency": 168,
+        "percentage": 0.0168
+      },
+      {
+        "rank": 256,
+        "word": "दृष्ट्वा",
+        "frequency": 168,
+        "percentage": 0.0168
+      },
+      {
+        "rank": 257,
+        "word": "१९",
+        "frequency": 168,
+        "percentage": 0.0168
+      },
+      {
+        "rank": 258,
+        "word": "नित्यं",
+        "frequency": 167,
+        "percentage": 0.0167
+      },
+      {
+        "rank": 259,
+        "word": "काले",
+        "frequency": 165,
+        "percentage": 0.0165
+      },
+      {
+        "rank": 260,
+        "word": "कुतः",
+        "frequency": 165,
+        "percentage": 0.0165
+      },
+      {
+        "rank": 261,
+        "word": "तस्याः",
+        "frequency": 164,
+        "percentage": 0.0164
+      },
+      {
+        "rank": 262,
+        "word": "तेषु",
+        "frequency": 164,
+        "percentage": 0.0164
+      },
+      {
+        "rank": 263,
+        "word": "उप्पज्जति",
+        "frequency": 163,
+        "percentage": 0.0163
+      },
+      {
+        "rank": 264,
+        "word": "चेत्,",
+        "frequency": 162,
+        "percentage": 0.0162
+      },
+      {
+        "rank": 265,
+        "word": "२४",
+        "frequency": 162,
+        "percentage": 0.0162
+      },
+      {
+        "rank": 266,
+        "word": "भाव",
+        "frequency": 161,
+        "percentage": 0.0161
+      },
+      {
+        "rank": 267,
+        "word": "वा,",
+        "frequency": 161,
+        "percentage": 0.0161
+      },
+      {
+        "rank": 268,
+        "word": "२३",
+        "frequency": 161,
+        "percentage": 0.0161
+      },
+      {
+        "rank": 269,
+        "word": "a",
+        "frequency": 160,
+        "percentage": 0.016
+      },
+      {
+        "rank": 270,
+        "word": "उच्यते",
+        "frequency": 160,
+        "percentage": 0.016
+      },
+      {
+        "rank": 271,
+        "word": "देवा",
+        "frequency": 160,
+        "percentage": 0.016
+      },
+      {
+        "rank": 272,
+        "word": "परे",
+        "frequency": 160,
+        "percentage": 0.016
+      },
+      {
+        "rank": 273,
+        "word": "पा०",
+        "frequency": 160,
+        "percentage": 0.016
+      },
+      {
+        "rank": 274,
+        "word": "स्यात्,",
+        "frequency": 160,
+        "percentage": 0.016
+      },
+      {
+        "rank": 275,
+        "word": "॥\"",
+        "frequency": 159,
+        "percentage": 0.0159
+      },
+      {
+        "rank": 276,
+        "word": "होता",
+        "frequency": 156,
+        "percentage": 0.0156
+      },
+      {
+        "rank": 277,
+        "word": "Digitized",
+        "frequency": 155,
+        "percentage": 0.0155
+      },
+      {
+        "rank": 278,
+        "word": "तस्या",
+        "frequency": 155,
+        "percentage": 0.0155
+      },
+      {
+        "rank": 279,
+        "word": "दु",
+        "frequency": 155,
+        "percentage": 0.0155
+      },
+      {
+        "rank": 280,
+        "word": "॥'",
+        "frequency": 155,
+        "percentage": 0.0155
+      },
+      {
+        "rank": 281,
+        "word": "यतो",
+        "frequency": 154,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 282,
+        "word": "तत्रापि",
+        "frequency": 153,
+        "percentage": 0.0153
+      },
+      {
+        "rank": 283,
+        "word": "देव",
+        "frequency": 152,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 284,
+        "word": "वे",
+        "frequency": 152,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 285,
+        "word": "वेति",
+        "frequency": 152,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 286,
+        "word": "सू०",
+        "frequency": 152,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 287,
+        "word": "स्वाहा",
+        "frequency": 152,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 288,
+        "word": "३१",
+        "frequency": 150,
+        "percentage": 0.015
+      },
+      {
+        "rank": 289,
+        "word": "नैव",
+        "frequency": 149,
+        "percentage": 0.0149
+      },
+      {
+        "rank": 290,
+        "word": "३.",
+        "frequency": 149,
+        "percentage": 0.0149
+      },
+      {
+        "rank": 291,
+        "word": "यं",
+        "frequency": 148,
+        "percentage": 0.0148
+      },
+      {
+        "rank": 292,
+        "word": "सर्वेषां",
+        "frequency": 148,
+        "percentage": 0.0148
+      },
+      {
+        "rank": 293,
+        "word": "आ",
+        "frequency": 147,
+        "percentage": 0.0147
+      },
+      {
+        "rank": 294,
+        "word": "कार्य",
+        "frequency": 147,
+        "percentage": 0.0147
+      },
+      {
+        "rank": 295,
+        "word": "कर्मणि",
+        "frequency": 146,
+        "percentage": 0.0146
+      },
+      {
+        "rank": 296,
+        "word": "येषां",
+        "frequency": 146,
+        "percentage": 0.0146
+      },
+      {
+        "rank": 297,
+        "word": "सप्त",
+        "frequency": 146,
+        "percentage": 0.0146
+      },
+      {
+        "rank": 298,
+        "word": "भी",
+        "frequency": 145,
+        "percentage": 0.0145
+      },
+      {
+        "rank": 299,
+        "word": "हा",
+        "frequency": 145,
+        "percentage": 0.0145
+      },
+      {
+        "rank": 300,
+        "word": "तदपि",
+        "frequency": 144,
+        "percentage": 0.0144
+      },
+      {
+        "rank": 301,
+        "word": "प्राप्त",
+        "frequency": 143,
+        "percentage": 0.0143
+      },
+      {
+        "rank": 302,
+        "word": "स्त्री",
+        "frequency": 143,
+        "percentage": 0.0143
+      },
+      {
+        "rank": 303,
+        "word": "क.",
+        "frequency": 142,
+        "percentage": 0.0142
+      },
+      {
+        "rank": 304,
+        "word": "वर्तते",
+        "frequency": 142,
+        "percentage": 0.0142
+      },
+      {
+        "rank": 305,
+        "word": "कृतं",
+        "frequency": 141,
+        "percentage": 0.0141
+      },
+      {
+        "rank": 306,
+        "word": "शब्द",
+        "frequency": 141,
+        "percentage": 0.0141
+      },
+      {
+        "rank": 307,
+        "word": "२६",
+        "frequency": 140,
+        "percentage": 0.014
+      },
+      {
+        "rank": 308,
+        "word": "त्वया",
+        "frequency": 139,
+        "percentage": 0.0139
+      },
+      {
+        "rank": 309,
+        "word": "वयं",
+        "frequency": 139,
+        "percentage": 0.0139
+      },
+      {
+        "rank": 310,
+        "word": "इत्यनेन",
+        "frequency": 138,
+        "percentage": 0.0138
+      },
+      {
+        "rank": 311,
+        "word": "किंतु",
+        "frequency": 138,
+        "percentage": 0.0138
+      },
+      {
+        "rank": 312,
+        "word": "सत्यं",
+        "frequency": 138,
+        "percentage": 0.0138
+      },
+      {
+        "rank": 313,
+        "word": "देवता",
+        "frequency": 137,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 314,
+        "word": "प्रथमं",
+        "frequency": 137,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 315,
+        "word": "क्रमेण",
+        "frequency": 136,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 316,
+        "word": "चेन्न",
+        "frequency": 136,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 317,
+        "word": "तद्",
+        "frequency": 136,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 318,
+        "word": "३३",
+        "frequency": 136,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 319,
+        "word": "अतएव",
+        "frequency": 135,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 320,
+        "word": "२७",
+        "frequency": 135,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 321,
+        "word": "2",
+        "frequency": 134,
+        "percentage": 0.0134
+      },
+      {
+        "rank": 322,
+        "word": "तस्स",
+        "frequency": 133,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 323,
+        "word": "नहीं",
+        "frequency": 133,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 324,
+        "word": "वो",
+        "frequency": 133,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 325,
+        "word": ".",
+        "frequency": 132,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 326,
+        "word": "है।",
+        "frequency": 132,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 327,
+        "word": "आत्मा",
+        "frequency": 131,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 328,
+        "word": "जाव",
+        "frequency": 131,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 329,
+        "word": "एवञ्च",
+        "frequency": 130,
+        "percentage": 0.013
+      },
+      {
+        "rank": 330,
+        "word": "नि",
+        "frequency": 130,
+        "percentage": 0.013
+      },
+      {
+        "rank": 331,
+        "word": "मनः",
+        "frequency": 130,
+        "percentage": 0.013
+      },
+      {
+        "rank": 332,
+        "word": "eGangotri",
+        "frequency": 128,
+        "percentage": 0.0128
+      },
+      {
+        "rank": 333,
+        "word": "ख.",
+        "frequency": 128,
+        "percentage": 0.0128
+      },
+      {
+        "rank": 334,
+        "word": "नः",
+        "frequency": 128,
+        "percentage": 0.0128
+      },
+      {
+        "rank": 335,
+        "word": "for",
+        "frequency": 127,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 336,
+        "word": "ए",
+        "frequency": 127,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 337,
+        "word": "कस्य",
+        "frequency": 127,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 338,
+        "word": "प्राप्नोति",
+        "frequency": 127,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 339,
+        "word": "'न",
+        "frequency": 126,
+        "percentage": 0.0126
+      },
+      {
+        "rank": 340,
+        "word": "विद्या",
+        "frequency": 126,
+        "percentage": 0.0126
+      },
+      {
+        "rank": 341,
+        "word": "स०",
+        "frequency": 126,
+        "percentage": 0.0126
+      },
+      {
+        "rank": 342,
+        "word": "दोषः",
+        "frequency": 125,
+        "percentage": 0.0125
+      },
+      {
+        "rank": 343,
+        "word": "सर्वं",
+        "frequency": 125,
+        "percentage": 0.0125
+      },
+      {
+        "rank": 344,
+        "word": "नेति",
+        "frequency": 124,
+        "percentage": 0.0124
+      },
+      {
+        "rank": 345,
+        "word": "प",
+        "frequency": 124,
+        "percentage": 0.0124
+      },
+      {
+        "rank": 346,
+        "word": "यत्तु",
+        "frequency": 124,
+        "percentage": 0.0124
+      },
+      {
+        "rank": 347,
+        "word": "दो",
+        "frequency": 123,
+        "percentage": 0.0123
+      },
+      {
+        "rank": 348,
+        "word": "परन्तु",
+        "frequency": 123,
+        "percentage": 0.0123
+      },
+      {
+        "rank": 349,
+        "word": "हैं",
+        "frequency": 123,
+        "percentage": 0.0123
+      },
+      {
+        "rank": 350,
+        "word": "इत्यत",
+        "frequency": 122,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 351,
+        "word": "पदं",
+        "frequency": 122,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 352,
+        "word": "करे",
+        "frequency": 121,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 353,
+        "word": "नतु",
+        "frequency": 121,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 354,
+        "word": "षष्ठी",
+        "frequency": 121,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 355,
+        "word": "स्थाने",
+        "frequency": 121,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 356,
+        "word": "३२",
+        "frequency": 121,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 357,
+        "word": "पृ०",
+        "frequency": 120,
+        "percentage": 0.012
+      },
+      {
+        "rank": 358,
+        "word": "विद्यते",
+        "frequency": 120,
+        "percentage": 0.012
+      },
+      {
+        "rank": 359,
+        "word": "उ",
+        "frequency": 119,
+        "percentage": 0.0119
+      },
+      {
+        "rank": 360,
+        "word": "च,",
+        "frequency": 119,
+        "percentage": 0.0119
+      },
+      {
+        "rank": 361,
+        "word": "त्ति",
+        "frequency": 119,
+        "percentage": 0.0119
+      },
+      {
+        "rank": 362,
+        "word": "यानि",
+        "frequency": 119,
+        "percentage": 0.0119
+      },
+      {
+        "rank": 363,
+        "word": "३५",
+        "frequency": 119,
+        "percentage": 0.0119
+      },
+      {
+        "rank": 364,
+        "word": "नास्तीति",
+        "frequency": 118,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 365,
+        "word": "प्रतीयते",
+        "frequency": 118,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 366,
+        "word": "कारणं",
+        "frequency": 117,
+        "percentage": 0.0117
+      },
+      {
+        "rank": 367,
+        "word": "देवी",
+        "frequency": 117,
+        "percentage": 0.0117
+      },
+      {
+        "rank": 368,
+        "word": "विधीयते",
+        "frequency": 117,
+        "percentage": 0.0117
+      },
+      {
+        "rank": 369,
+        "word": "यद्",
+        "frequency": 116,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 370,
+        "word": "३६",
+        "frequency": 116,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 371,
+        "word": "ग.",
+        "frequency": 115,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 372,
+        "word": "रूपं",
+        "frequency": 115,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 373,
+        "word": "किञ्च",
+        "frequency": 114,
+        "percentage": 0.0114
+      },
+      {
+        "rank": 374,
+        "word": "तन्न",
+        "frequency": 114,
+        "percentage": 0.0114
+      },
+      {
+        "rank": 375,
+        "word": "पु०",
+        "frequency": 114,
+        "percentage": 0.0114
+      },
+      {
+        "rank": 376,
+        "word": "तया",
+        "frequency": 113,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 377,
+        "word": "तस्यैव",
+        "frequency": 113,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 378,
+        "word": "प्रत्येकं",
+        "frequency": 113,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 379,
+        "word": "शक्यते",
+        "frequency": 113,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 380,
+        "word": "होति",
+        "frequency": 113,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 381,
+        "word": "दोष",
+        "frequency": 112,
+        "percentage": 0.0112
+      },
+      {
+        "rank": 382,
+        "word": "केन",
+        "frequency": 111,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 383,
+        "word": "क्रिया",
+        "frequency": 111,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 384,
+        "word": "त्वां",
+        "frequency": 111,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 385,
+        "word": "नमः,",
+        "frequency": 111,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 386,
+        "word": "३४",
+        "frequency": 111,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 387,
+        "word": "अन्यत्र",
+        "frequency": 110,
+        "percentage": 0.011
+      },
+      {
+        "rank": 388,
+        "word": "तासां",
+        "frequency": 110,
+        "percentage": 0.011
+      },
+      {
+        "rank": 389,
+        "word": "धर्म",
+        "frequency": 110,
+        "percentage": 0.011
+      },
+      {
+        "rank": 390,
+        "word": "पुरा",
+        "frequency": 110,
+        "percentage": 0.011
+      },
+      {
+        "rank": 391,
+        "word": "प्रथम",
+        "frequency": 110,
+        "percentage": 0.011
+      },
+      {
+        "rank": 392,
+        "word": "३८",
+        "frequency": 110,
+        "percentage": 0.011
+      },
+      {
+        "rank": 393,
+        "word": "किमपि",
+        "frequency": 109,
+        "percentage": 0.0109
+      },
+      {
+        "rank": 394,
+        "word": "त्वा",
+        "frequency": 109,
+        "percentage": 0.0109
+      },
+      {
+        "rank": 395,
+        "word": "प्रकार",
+        "frequency": 109,
+        "percentage": 0.0109
+      },
+      {
+        "rank": 396,
+        "word": "लभते",
+        "frequency": 109,
+        "percentage": 0.0109
+      },
+      {
+        "rank": 397,
+        "word": "।'",
+        "frequency": 109,
+        "percentage": 0.0109
+      },
+      {
+        "rank": 398,
+        "word": "त्या",
+        "frequency": 108,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 399,
+        "word": "इत्येवं",
+        "frequency": 107,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 400,
+        "word": "एप",
+        "frequency": 107,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 401,
+        "word": "तेसं",
+        "frequency": 107,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 402,
+        "word": "अस्मिन्",
+        "frequency": 106,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 403,
+        "word": "गृह्यते",
+        "frequency": 106,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 404,
+        "word": "वचनं",
+        "frequency": 106,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 405,
+        "word": "है,",
+        "frequency": 106,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 406,
+        "word": "वाच्यं",
+        "frequency": 105,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 407,
+        "word": "श्रुत्वा",
+        "frequency": 105,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 408,
+        "word": "सर्वथा",
+        "frequency": 105,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 409,
+        "word": "तदाह",
+        "frequency": 104,
+        "percentage": 0.0104
+      },
+      {
+        "rank": 410,
+        "word": "पूर्वं",
+        "frequency": 104,
+        "percentage": 0.0104
+      },
+      {
+        "rank": 411,
+        "word": "विषये",
+        "frequency": 104,
+        "percentage": 0.0104
+      },
+      {
+        "rank": 412,
+        "word": "ऽपि",
+        "frequency": 104,
+        "percentage": 0.0104
+      },
+      {
+        "rank": 413,
+        "word": "१,",
+        "frequency": 104,
+        "percentage": 0.0104
+      },
+      {
+        "rank": 414,
+        "word": "ख",
+        "frequency": 103,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 415,
+        "word": "गत्वा",
+        "frequency": 103,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 416,
+        "word": "तयोः",
+        "frequency": 103,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 417,
+        "word": "तावत्",
+        "frequency": 103,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 418,
+        "word": "मन",
+        "frequency": 103,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 419,
+        "word": "रो०",
+        "frequency": 103,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 420,
+        "word": "सम्भवति",
+        "frequency": 103,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 421,
+        "word": "ti",
+        "frequency": 102,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 422,
+        "word": "एव,",
+        "frequency": 102,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 423,
+        "word": "ग",
+        "frequency": 102,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 424,
+        "word": "नु",
+        "frequency": 102,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 425,
+        "word": "परमं",
+        "frequency": 102,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 426,
+        "word": "पृथक्",
+        "frequency": 102,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 427,
+        "word": "भिक्खवे,",
+        "frequency": 102,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 428,
+        "word": "सर्गः",
+        "frequency": 102,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 429,
+        "word": "The",
+        "frequency": 101,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 430,
+        "word": "as",
+        "frequency": 101,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 431,
+        "word": "भगवान्",
+        "frequency": 101,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 432,
+        "word": "भाष्ये",
+        "frequency": 101,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 433,
+        "word": "सर्वदा",
+        "frequency": 101,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 434,
+        "word": "अन्ये",
+        "frequency": 100,
+        "percentage": 0.01
+      },
+      {
+        "rank": 435,
+        "word": "इत्येव",
+        "frequency": 100,
+        "percentage": 0.01
+      },
+      {
+        "rank": 436,
+        "word": "कर",
+        "frequency": 100,
+        "percentage": 0.01
+      },
+      {
+        "rank": 437,
+        "word": "कर्माणि",
+        "frequency": 100,
+        "percentage": 0.01
+      },
+      {
+        "rank": 438,
+        "word": "गृहीत्वा",
+        "frequency": 100,
+        "percentage": 0.01
+      },
+      {
+        "rank": 439,
+        "word": "जे",
+        "frequency": 100,
+        "percentage": 0.01
+      },
+      {
+        "rank": 440,
+        "word": "विषय",
+        "frequency": 100,
+        "percentage": 0.01
+      },
+      {
+        "rank": 441,
+        "word": "संशयः",
+        "frequency": 100,
+        "percentage": 0.01
+      },
+      {
+        "rank": 442,
+        "word": "सिद्धे",
+        "frequency": 100,
+        "percentage": 0.01
+      },
+      {
+        "rank": 443,
+        "word": "तृतीया",
+        "frequency": 99,
+        "percentage": 0.0099
+      },
+      {
+        "rank": 444,
+        "word": "द्वितीये",
+        "frequency": 99,
+        "percentage": 0.0099
+      },
+      {
+        "rank": 445,
+        "word": "पन",
+        "frequency": 99,
+        "percentage": 0.0099
+      },
+      {
+        "rank": 446,
+        "word": "रिति",
+        "frequency": 99,
+        "percentage": 0.0099
+      },
+      {
+        "rank": 447,
+        "word": "वस्तु",
+        "frequency": 99,
+        "percentage": 0.0099
+      },
+      {
+        "rank": 448,
+        "word": "स्थिते",
+        "frequency": 99,
+        "percentage": 0.0099
+      },
+      {
+        "rank": 449,
+        "word": "ताः",
+        "frequency": 98,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 450,
+        "word": "हेतु",
+        "frequency": 98,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 451,
+        "word": "२९",
+        "frequency": 98,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 452,
+        "word": "10",
+        "frequency": 97,
+        "percentage": 0.0097
+      },
+      {
+        "rank": 453,
+        "word": "उक्तं",
+        "frequency": 97,
+        "percentage": 0.0097
+      },
+      {
+        "rank": 454,
+        "word": "घट",
+        "frequency": 97,
+        "percentage": 0.0097
+      },
+      {
+        "rank": 455,
+        "word": "ज्ञान",
+        "frequency": 97,
+        "percentage": 0.0097
+      },
+      {
+        "rank": 456,
+        "word": "तौ",
+        "frequency": 97,
+        "percentage": 0.0097
+      },
+      {
+        "rank": 457,
+        "word": "४.",
+        "frequency": 97,
+        "percentage": 0.0097
+      },
+      {
+        "rank": 458,
+        "word": "?,",
+        "frequency": 96,
+        "percentage": 0.0096
+      },
+      {
+        "rank": 459,
+        "word": "प्रकारेण",
+        "frequency": 96,
+        "percentage": 0.0096
+      },
+      {
+        "rank": 460,
+        "word": "४०",
+        "frequency": 96,
+        "percentage": 0.0096
+      },
+      {
+        "rank": 461,
+        "word": "इयं",
+        "frequency": 95,
+        "percentage": 0.0095
+      },
+      {
+        "rank": 462,
+        "word": "जाता",
+        "frequency": 95,
+        "percentage": 0.0095
+      },
+      {
+        "rank": 463,
+        "word": "द्वितीया",
+        "frequency": 95,
+        "percentage": 0.0095
+      },
+      {
+        "rank": 464,
+        "word": "परा",
+        "frequency": 95,
+        "percentage": 0.0095
+      },
+      {
+        "rank": 465,
+        "word": "प्रथमः",
+        "frequency": 95,
+        "percentage": 0.0095
+      },
+      {
+        "rank": 466,
+        "word": "भूत्वा",
+        "frequency": 95,
+        "percentage": 0.0095
+      },
+      {
+        "rank": 467,
+        "word": "शब्दस्य",
+        "frequency": 95,
+        "percentage": 0.0095
+      },
+      {
+        "rank": 468,
+        "word": "इदानीं",
+        "frequency": 94,
+        "percentage": 0.0094
+      },
+      {
+        "rank": 469,
+        "word": "कारण",
+        "frequency": 94,
+        "percentage": 0.0094
+      },
+      {
+        "rank": 470,
+        "word": "तेनैव",
+        "frequency": 94,
+        "percentage": 0.0094
+      },
+      {
+        "rank": 471,
+        "word": "वह",
+        "frequency": 94,
+        "percentage": 0.0094
+      },
+      {
+        "rank": 472,
+        "word": "हेतुः",
+        "frequency": 94,
+        "percentage": 0.0094
+      },
+      {
+        "rank": 473,
+        "word": "इत्यपि",
+        "frequency": 93,
+        "percentage": 0.0093
+      },
+      {
+        "rank": 474,
+        "word": "नव",
+        "frequency": 93,
+        "percentage": 0.0093
+      },
+      {
+        "rank": 475,
+        "word": "विशेषः",
+        "frequency": 93,
+        "percentage": 0.0093
+      },
+      {
+        "rank": 476,
+        "word": "२,",
+        "frequency": 93,
+        "percentage": 0.0093
+      },
+      {
+        "rank": 477,
+        "word": "न,",
+        "frequency": 92,
+        "percentage": 0.0092
+      },
+      {
+        "rank": 478,
+        "word": "पुत्र",
+        "frequency": 92,
+        "percentage": 0.0092
+      },
+      {
+        "rank": 479,
+        "word": "वदन्ति",
+        "frequency": 92,
+        "percentage": 0.0092
+      },
+      {
+        "rank": 480,
+        "word": "कुर्यात्",
+        "frequency": 91,
+        "percentage": 0.0091
+      },
+      {
+        "rank": 481,
+        "word": "गच्छति",
+        "frequency": 91,
+        "percentage": 0.0091
+      },
+      {
+        "rank": 482,
+        "word": "लभ्यते",
+        "frequency": 91,
+        "percentage": 0.0091
+      },
+      {
+        "rank": 483,
+        "word": "संभवति",
+        "frequency": 91,
+        "percentage": 0.0091
+      },
+      {
+        "rank": 484,
+        "word": "कुतो",
+        "frequency": 90,
+        "percentage": 0.009
+      },
+      {
+        "rank": 485,
+        "word": "चेव",
+        "frequency": 90,
+        "percentage": 0.009
+      },
+      {
+        "rank": 486,
+        "word": "पुरुष",
+        "frequency": 90,
+        "percentage": 0.009
+      },
+      {
+        "rank": 487,
+        "word": "मनसा",
+        "frequency": 90,
+        "percentage": 0.009
+      },
+      {
+        "rank": 488,
+        "word": "स्वयमेव",
+        "frequency": 90,
+        "percentage": 0.009
+      },
+      {
+        "rank": 489,
+        "word": "5",
+        "frequency": 89,
+        "percentage": 0.0089
+      },
+      {
+        "rank": 490,
+        "word": "अन्य",
+        "frequency": 89,
+        "percentage": 0.0089
+      },
+      {
+        "rank": 491,
+        "word": "इत्थं",
+        "frequency": 89,
+        "percentage": 0.0089
+      },
+      {
+        "rank": 492,
+        "word": "यस्मिन्",
+        "frequency": 89,
+        "percentage": 0.0089
+      },
+      {
+        "rank": 493,
+        "word": "याति",
+        "frequency": 89,
+        "percentage": 0.0089
+      },
+      {
+        "rank": 494,
+        "word": "श्रूयते",
+        "frequency": 89,
+        "percentage": 0.0089
+      },
+      {
+        "rank": 495,
+        "word": "सुखं",
+        "frequency": 89,
+        "percentage": 0.0089
+      },
+      {
+        "rank": 496,
+        "word": "↑",
+        "frequency": 89,
+        "percentage": 0.0089
+      },
+      {
+        "rank": 497,
+        "word": "3",
+        "frequency": 88,
+        "percentage": 0.0088
+      },
+      {
+        "rank": 498,
+        "word": "गतः",
+        "frequency": 88,
+        "percentage": 0.0088
+      },
+      {
+        "rank": 499,
+        "word": "दिने",
+        "frequency": 88,
+        "percentage": 0.0088
+      },
+      {
+        "rank": 500,
+        "word": "पश्यति",
+        "frequency": 88,
+        "percentage": 0.0088
+      }
+    ]
+  },
+  "Cleaned V1": {
+    "name": "Cleaned V1",
+    "file_path": "data\\processed\\clean_corpus.txt",
+    "summary": {
+      "tokens": 793768,
+      "types": 392955,
+      "type_token_ratio": 0.4950501909877949,
+      "ttr_percentage": 49.51,
+      "hapax_legomena": 336431,
+      "hapax_type_percentage": 85.62,
+      "hapax_token_percentage": 42.38,
+      "dis_legomena": 28347
+    },
+    "coverage": {
+      "10%": {
+        "target_coverage": 0.1,
+        "types_required": 25,
+        "type_percentage": 0.0064,
+        "tokens_accumulated": 80272,
+        "actual_coverage": 0.101128
+      },
+      "25%": {
+        "target_coverage": 0.25,
+        "types_required": 797,
+        "type_percentage": 0.2028,
+        "tokens_accumulated": 198495,
+        "actual_coverage": 0.250067
+      },
+      "50%": {
+        "target_coverage": 0.5,
+        "types_required": 26924,
+        "type_percentage": 6.8517,
+        "tokens_accumulated": 396884,
+        "actual_coverage": 0.5
+      },
+      "75%": {
+        "target_coverage": 0.75,
+        "types_required": 194513,
+        "type_percentage": 49.5001,
+        "tokens_accumulated": 595326,
+        "actual_coverage": 0.75
+      },
+      "90%": {
+        "target_coverage": 0.9,
+        "types_required": 313579,
+        "type_percentage": 79.8002,
+        "tokens_accumulated": 714392,
+        "actual_coverage": 0.900001
+      },
+      "95%": {
+        "target_coverage": 0.95,
+        "types_required": 353267,
+        "type_percentage": 89.9001,
+        "tokens_accumulated": 754080,
+        "actual_coverage": 0.950001
+      },
+      "99%": {
+        "target_coverage": 0.99,
+        "types_required": 385018,
+        "type_percentage": 97.9802,
+        "tokens_accumulated": 785831,
+        "actual_coverage": 0.990001
+      }
+    },
+    "zipf": {
+      "slope": -0.4626,
+      "zipf_exponent_s": 0.4626,
+      "intercept": 2.4648,
+      "r_squared": 0.7474
+    },
+    "top_words": [
+      {
+        "rank": 1,
+        "word": "इति",
+        "frequency": 13605,
+        "percentage": 1.714
+      },
+      {
+        "rank": 2,
+        "word": "न",
+        "frequency": 11860,
+        "percentage": 1.4941
+      },
+      {
+        "rank": 3,
+        "word": "च",
+        "frequency": 10871,
+        "percentage": 1.3695
+      },
+      {
+        "rank": 4,
+        "word": "वा",
+        "frequency": 4276,
+        "percentage": 0.5387
+      },
+      {
+        "rank": 5,
+        "word": "तु",
+        "frequency": 3856,
+        "percentage": 0.4858
+      },
+      {
+        "rank": 6,
+        "word": "एव",
+        "frequency": 3227,
+        "percentage": 0.4065
+      },
+      {
+        "rank": 7,
+        "word": "तथा",
+        "frequency": 3125,
+        "percentage": 0.3937
+      },
+      {
+        "rank": 8,
+        "word": "स",
+        "frequency": 3059,
+        "percentage": 0.3854
+      },
+      {
+        "rank": 9,
+        "word": "हि",
+        "frequency": 2548,
+        "percentage": 0.321
+      },
+      {
+        "rank": 10,
+        "word": "तत्र",
+        "frequency": 2391,
+        "percentage": 0.3012
+      },
+      {
+        "rank": 11,
+        "word": "भवति",
+        "frequency": 2231,
+        "percentage": 0.2811
+      },
+      {
+        "rank": 12,
+        "word": "एवं",
+        "frequency": 2158,
+        "percentage": 0.2719
+      },
+      {
+        "rank": 13,
+        "word": "यथा",
+        "frequency": 1764,
+        "percentage": 0.2222
+      },
+      {
+        "rank": 14,
+        "word": "तस्य",
+        "frequency": 1735,
+        "percentage": 0.2186
+      },
+      {
+        "rank": 15,
+        "word": "ते",
+        "frequency": 1652,
+        "percentage": 0.2081
+      },
+      {
+        "rank": 16,
+        "word": "भावः",
+        "frequency": 1554,
+        "percentage": 0.1958
+      },
+      {
+        "rank": 17,
+        "word": "स्यात्",
+        "frequency": 1311,
+        "percentage": 0.1652
+      },
+      {
+        "rank": 18,
+        "word": "किं",
+        "frequency": 1302,
+        "percentage": 0.164
+      },
+      {
+        "rank": 19,
+        "word": "अथ",
+        "frequency": 1211,
+        "percentage": 0.1526
+      },
+      {
+        "rank": 20,
+        "word": "तेन",
+        "frequency": 1189,
+        "percentage": 0.1498
+      },
+      {
+        "rank": 21,
+        "word": "ननु",
+        "frequency": 1104,
+        "percentage": 0.1391
+      },
+      {
+        "rank": 22,
+        "word": "यदि",
+        "frequency": 1101,
+        "percentage": 0.1387
+      },
+      {
+        "rank": 23,
+        "word": "के",
+        "frequency": 1075,
+        "percentage": 0.1354
+      },
+      {
+        "rank": 24,
+        "word": "ति",
+        "frequency": 1056,
+        "percentage": 0.133
+      },
+      {
+        "rank": 25,
+        "word": "व",
+        "frequency": 1011,
+        "percentage": 0.1274
+      },
+      {
+        "rank": 26,
+        "word": "सा",
+        "frequency": 961,
+        "percentage": 0.1211
+      },
+      {
+        "rank": 27,
+        "word": "अत्र",
+        "frequency": 960,
+        "percentage": 0.1209
+      },
+      {
+        "rank": 28,
+        "word": "इत्यर्थः",
+        "frequency": 957,
+        "percentage": 0.1206
+      },
+      {
+        "rank": 29,
+        "word": "का",
+        "frequency": 951,
+        "percentage": 0.1198
+      },
+      {
+        "rank": 30,
+        "word": "या",
+        "frequency": 910,
+        "percentage": 0.1146
+      },
+      {
+        "rank": 31,
+        "word": "से",
+        "frequency": 894,
+        "percentage": 0.1126
+      },
+      {
+        "rank": 32,
+        "word": "तं",
+        "frequency": 874,
+        "percentage": 0.1101
+      },
+      {
+        "rank": 33,
+        "word": "तदा",
+        "frequency": 852,
+        "percentage": 0.1073
+      },
+      {
+        "rank": 34,
+        "word": "मे",
+        "frequency": 841,
+        "percentage": 0.106
+      },
+      {
+        "rank": 35,
+        "word": "कथं",
+        "frequency": 819,
+        "percentage": 0.1032
+      },
+      {
+        "rank": 36,
+        "word": "है",
+        "frequency": 813,
+        "percentage": 0.1024
+      },
+      {
+        "rank": 37,
+        "word": "ततः",
+        "frequency": 794,
+        "percentage": 0.1
+      },
+      {
+        "rank": 38,
+        "word": "य",
+        "frequency": 793,
+        "percentage": 0.0999
+      },
+      {
+        "rank": 39,
+        "word": "अत",
+        "frequency": 789,
+        "percentage": 0.0994
+      },
+      {
+        "rank": 40,
+        "word": "ये",
+        "frequency": 781,
+        "percentage": 0.0984
+      },
+      {
+        "rank": 41,
+        "word": "नाम",
+        "frequency": 778,
+        "percentage": 0.098
+      },
+      {
+        "rank": 42,
+        "word": "सति",
+        "frequency": 764,
+        "percentage": 0.0962
+      },
+      {
+        "rank": 43,
+        "word": "यो",
+        "frequency": 706,
+        "percentage": 0.0889
+      },
+      {
+        "rank": 44,
+        "word": "यस्य",
+        "frequency": 701,
+        "percentage": 0.0883
+      },
+      {
+        "rank": 45,
+        "word": "हे",
+        "frequency": 699,
+        "percentage": 0.0881
+      },
+      {
+        "rank": 46,
+        "word": "चेत्",
+        "frequency": 686,
+        "percentage": 0.0864
+      },
+      {
+        "rank": 47,
+        "word": "अपि",
+        "frequency": 645,
+        "percentage": 0.0813
+      },
+      {
+        "rank": 48,
+        "word": "यत्र",
+        "frequency": 637,
+        "percentage": 0.0803
+      },
+      {
+        "rank": 49,
+        "word": "तत्",
+        "frequency": 633,
+        "percentage": 0.0797
+      },
+      {
+        "rank": 50,
+        "word": "कृत्वा",
+        "frequency": 629,
+        "percentage": 0.0792
+      },
+      {
+        "rank": 51,
+        "word": "प्रति",
+        "frequency": 611,
+        "percentage": 0.077
+      },
+      {
+        "rank": 52,
+        "word": "पुनः",
+        "frequency": 602,
+        "percentage": 0.0758
+      },
+      {
+        "rank": 53,
+        "word": "को",
+        "frequency": 597,
+        "percentage": 0.0752
+      },
+      {
+        "rank": 54,
+        "word": "सह",
+        "frequency": 590,
+        "percentage": 0.0743
+      },
+      {
+        "rank": 55,
+        "word": "ततो",
+        "frequency": 580,
+        "percentage": 0.0731
+      },
+      {
+        "rank": 56,
+        "word": "क",
+        "frequency": 545,
+        "percentage": 0.0687
+      },
+      {
+        "rank": 57,
+        "word": "मा",
+        "frequency": 532,
+        "percentage": 0.067
+      },
+      {
+        "rank": 58,
+        "word": "इव",
+        "frequency": 528,
+        "percentage": 0.0665
+      },
+      {
+        "rank": 59,
+        "word": "यः",
+        "frequency": 516,
+        "percentage": 0.065
+      },
+      {
+        "rank": 60,
+        "word": "यत्",
+        "frequency": 515,
+        "percentage": 0.0649
+      },
+      {
+        "rank": 61,
+        "word": "में",
+        "frequency": 509,
+        "percentage": 0.0641
+      },
+      {
+        "rank": 62,
+        "word": "तर्हि",
+        "frequency": 489,
+        "percentage": 0.0616
+      },
+      {
+        "rank": 63,
+        "word": "तेषां",
+        "frequency": 487,
+        "percentage": 0.0614
+      },
+      {
+        "rank": 64,
+        "word": "मम",
+        "frequency": 484,
+        "percentage": 0.061
+      },
+      {
+        "rank": 65,
+        "word": "तो",
+        "frequency": 480,
+        "percentage": 0.0605
+      },
+      {
+        "rank": 66,
+        "word": "यदा",
+        "frequency": 477,
+        "percentage": 0.0601
+      },
+      {
+        "rank": 67,
+        "word": "आह",
+        "frequency": 466,
+        "percentage": 0.0587
+      },
+      {
+        "rank": 68,
+        "word": "मिति",
+        "frequency": 466,
+        "percentage": 0.0587
+      },
+      {
+        "rank": 69,
+        "word": "इत्यादि",
+        "frequency": 458,
+        "percentage": 0.0577
+      },
+      {
+        "rank": 70,
+        "word": "येन",
+        "frequency": 453,
+        "percentage": 0.0571
+      },
+      {
+        "rank": 71,
+        "word": "भवेत्",
+        "frequency": 446,
+        "percentage": 0.0562
+      },
+      {
+        "rank": 72,
+        "word": "सः",
+        "frequency": 443,
+        "percentage": 0.0558
+      },
+      {
+        "rank": 73,
+        "word": "चेति",
+        "frequency": 436,
+        "percentage": 0.0549
+      },
+      {
+        "rank": 74,
+        "word": "त",
+        "frequency": 435,
+        "percentage": 0.0548
+      },
+      {
+        "rank": 75,
+        "word": "भवन्ति",
+        "frequency": 424,
+        "percentage": 0.0534
+      },
+      {
+        "rank": 76,
+        "word": "नास्ति",
+        "frequency": 422,
+        "percentage": 0.0532
+      },
+      {
+        "rank": 77,
+        "word": "वै",
+        "frequency": 421,
+        "percentage": 0.053
+      },
+      {
+        "rank": 78,
+        "word": "अन्यथा",
+        "frequency": 418,
+        "percentage": 0.0527
+      },
+      {
+        "rank": 79,
+        "word": "सर्वे",
+        "frequency": 405,
+        "percentage": 0.051
+      },
+      {
+        "rank": 80,
+        "word": "म",
+        "frequency": 402,
+        "percentage": 0.0506
+      },
+      {
+        "rank": 81,
+        "word": "कि",
+        "frequency": 393,
+        "percentage": 0.0495
+      },
+      {
+        "rank": 82,
+        "word": "वाच्यम्",
+        "frequency": 383,
+        "percentage": 0.0483
+      },
+      {
+        "rank": 83,
+        "word": "अतः",
+        "frequency": 382,
+        "percentage": 0.0481
+      },
+      {
+        "rank": 84,
+        "word": "इत्यत्र",
+        "frequency": 382,
+        "percentage": 0.0481
+      },
+      {
+        "rank": 85,
+        "word": "तथापि",
+        "frequency": 382,
+        "percentage": 0.0481
+      },
+      {
+        "rank": 86,
+        "word": "इह",
+        "frequency": 381,
+        "percentage": 0.048
+      },
+      {
+        "rank": 87,
+        "word": "शेषः",
+        "frequency": 376,
+        "percentage": 0.0474
+      },
+      {
+        "rank": 88,
+        "word": "कर्म",
+        "frequency": 375,
+        "percentage": 0.0472
+      },
+      {
+        "rank": 89,
+        "word": "यावत्",
+        "frequency": 370,
+        "percentage": 0.0466
+      },
+      {
+        "rank": 90,
+        "word": "राजा",
+        "frequency": 369,
+        "percentage": 0.0465
+      },
+      {
+        "rank": 91,
+        "word": "वि",
+        "frequency": 366,
+        "percentage": 0.0461
+      },
+      {
+        "rank": 92,
+        "word": "द्वे",
+        "frequency": 364,
+        "percentage": 0.0459
+      },
+      {
+        "rank": 93,
+        "word": "मया",
+        "frequency": 363,
+        "percentage": 0.0457
+      },
+      {
+        "rank": 94,
+        "word": "परं",
+        "frequency": 354,
+        "percentage": 0.0446
+      },
+      {
+        "rank": 95,
+        "word": "सर्व",
+        "frequency": 352,
+        "percentage": 0.0443
+      },
+      {
+        "rank": 96,
+        "word": "नमः",
+        "frequency": 346,
+        "percentage": 0.0436
+      },
+      {
+        "rank": 97,
+        "word": "किन्तु",
+        "frequency": 341,
+        "percentage": 0.043
+      },
+      {
+        "rank": 98,
+        "word": "नो",
+        "frequency": 339,
+        "percentage": 0.0427
+      },
+      {
+        "rank": 99,
+        "word": "तव",
+        "frequency": 338,
+        "percentage": 0.0426
+      },
+      {
+        "rank": 100,
+        "word": "त्वं",
+        "frequency": 338,
+        "percentage": 0.0426
+      },
+      {
+        "rank": 101,
+        "word": "इदं",
+        "frequency": 337,
+        "percentage": 0.0425
+      },
+      {
+        "rank": 102,
+        "word": "की",
+        "frequency": 337,
+        "percentage": 0.0425
+      },
+      {
+        "rank": 103,
+        "word": "और",
+        "frequency": 333,
+        "percentage": 0.042
+      },
+      {
+        "rank": 104,
+        "word": "पाठः",
+        "frequency": 332,
+        "percentage": 0.0418
+      },
+      {
+        "rank": 105,
+        "word": "ॐ",
+        "frequency": 329,
+        "percentage": 0.0414
+      },
+      {
+        "rank": 106,
+        "word": "करोति",
+        "frequency": 315,
+        "percentage": 0.0397
+      },
+      {
+        "rank": 107,
+        "word": "स्यादिति",
+        "frequency": 312,
+        "percentage": 0.0393
+      },
+      {
+        "rank": 108,
+        "word": "पूर्व",
+        "frequency": 308,
+        "percentage": 0.0388
+      },
+      {
+        "rank": 109,
+        "word": "भवतीति",
+        "frequency": 295,
+        "percentage": 0.0372
+      },
+      {
+        "rank": 110,
+        "word": "अतो",
+        "frequency": 294,
+        "percentage": 0.037
+      },
+      {
+        "rank": 111,
+        "word": "यद्यपि",
+        "frequency": 294,
+        "percentage": 0.037
+      },
+      {
+        "rank": 112,
+        "word": "पर",
+        "frequency": 292,
+        "percentage": 0.0368
+      },
+      {
+        "rank": 113,
+        "word": "हो",
+        "frequency": 290,
+        "percentage": 0.0365
+      },
+      {
+        "rank": 114,
+        "word": "अ",
+        "frequency": 286,
+        "percentage": 0.036
+      },
+      {
+        "rank": 115,
+        "word": "सदा",
+        "frequency": 281,
+        "percentage": 0.0354
+      },
+      {
+        "rank": 116,
+        "word": "सो",
+        "frequency": 280,
+        "percentage": 0.0353
+      },
+      {
+        "rank": 117,
+        "word": "अस्य",
+        "frequency": 279,
+        "percentage": 0.0351
+      },
+      {
+        "rank": 118,
+        "word": "विना",
+        "frequency": 278,
+        "percentage": 0.035
+      },
+      {
+        "rank": 119,
+        "word": "तस्मात्",
+        "frequency": 277,
+        "percentage": 0.0349
+      },
+      {
+        "rank": 120,
+        "word": "ब्रह्म",
+        "frequency": 277,
+        "percentage": 0.0349
+      },
+      {
+        "rank": 121,
+        "word": "अथवा",
+        "frequency": 276,
+        "percentage": 0.0348
+      },
+      {
+        "rank": 122,
+        "word": "अयं",
+        "frequency": 270,
+        "percentage": 0.034
+      },
+      {
+        "rank": 123,
+        "word": "तथाच",
+        "frequency": 270,
+        "percentage": 0.034
+      },
+      {
+        "rank": 124,
+        "word": "खलु",
+        "frequency": 269,
+        "percentage": 0.0339
+      },
+      {
+        "rank": 125,
+        "word": "मां",
+        "frequency": 269,
+        "percentage": 0.0339
+      },
+      {
+        "rank": 126,
+        "word": "ख",
+        "frequency": 267,
+        "percentage": 0.0336
+      },
+      {
+        "rank": 127,
+        "word": "भविष्यति",
+        "frequency": 267,
+        "percentage": 0.0336
+      },
+      {
+        "rank": 128,
+        "word": "श्री",
+        "frequency": 261,
+        "percentage": 0.0329
+      },
+      {
+        "rank": 129,
+        "word": "लोके",
+        "frequency": 260,
+        "percentage": 0.0328
+      },
+      {
+        "rank": 130,
+        "word": "ग",
+        "frequency": 257,
+        "percentage": 0.0324
+      },
+      {
+        "rank": 131,
+        "word": "र",
+        "frequency": 255,
+        "percentage": 0.0321
+      },
+      {
+        "rank": 132,
+        "word": "ने",
+        "frequency": 252,
+        "percentage": 0.0317
+      },
+      {
+        "rank": 133,
+        "word": "सर्वत्र",
+        "frequency": 250,
+        "percentage": 0.0315
+      },
+      {
+        "rank": 134,
+        "word": "णं",
+        "frequency": 245,
+        "percentage": 0.0309
+      },
+      {
+        "rank": 135,
+        "word": "ता",
+        "frequency": 242,
+        "percentage": 0.0305
+      },
+      {
+        "rank": 136,
+        "word": "कृते",
+        "frequency": 241,
+        "percentage": 0.0304
+      },
+      {
+        "rank": 137,
+        "word": "मध्ये",
+        "frequency": 241,
+        "percentage": 0.0304
+      },
+      {
+        "rank": 138,
+        "word": "तथैव",
+        "frequency": 240,
+        "percentage": 0.0302
+      },
+      {
+        "rank": 139,
+        "word": "इत्यमरः",
+        "frequency": 239,
+        "percentage": 0.0301
+      },
+      {
+        "rank": 140,
+        "word": "अस्ति",
+        "frequency": 238,
+        "percentage": 0.03
+      },
+      {
+        "rank": 141,
+        "word": "एक",
+        "frequency": 237,
+        "percentage": 0.0299
+      },
+      {
+        "rank": 142,
+        "word": "हैं",
+        "frequency": 232,
+        "percentage": 0.0292
+      },
+      {
+        "rank": 143,
+        "word": "पि",
+        "frequency": 231,
+        "percentage": 0.0291
+      },
+      {
+        "rank": 144,
+        "word": "एवेति",
+        "frequency": 230,
+        "percentage": 0.029
+      },
+      {
+        "rank": 145,
+        "word": "तत्थ",
+        "frequency": 230,
+        "percentage": 0.029
+      },
+      {
+        "rank": 146,
+        "word": "ह",
+        "frequency": 229,
+        "percentage": 0.0288
+      },
+      {
+        "rank": 147,
+        "word": "तां",
+        "frequency": 227,
+        "percentage": 0.0286
+      },
+      {
+        "rank": 148,
+        "word": "ज्ञानं",
+        "frequency": 225,
+        "percentage": 0.0283
+      },
+      {
+        "rank": 149,
+        "word": "दृश्यते",
+        "frequency": 222,
+        "percentage": 0.028
+      },
+      {
+        "rank": 150,
+        "word": "ना",
+        "frequency": 222,
+        "percentage": 0.028
+      },
+      {
+        "rank": 151,
+        "word": "तदेव",
+        "frequency": 220,
+        "percentage": 0.0277
+      },
+      {
+        "rank": 152,
+        "word": "यतः",
+        "frequency": 219,
+        "percentage": 0.0276
+      },
+      {
+        "rank": 153,
+        "word": "अनेन",
+        "frequency": 218,
+        "percentage": 0.0275
+      },
+      {
+        "rank": 154,
+        "word": "इत्यादिना",
+        "frequency": 218,
+        "percentage": 0.0275
+      },
+      {
+        "rank": 155,
+        "word": "एतेन",
+        "frequency": 218,
+        "percentage": 0.0275
+      },
+      {
+        "rank": 156,
+        "word": "पञ्च",
+        "frequency": 218,
+        "percentage": 0.0275
+      },
+      {
+        "rank": 157,
+        "word": "ही",
+        "frequency": 218,
+        "percentage": 0.0275
+      },
+      {
+        "rank": 158,
+        "word": "सन्ति",
+        "frequency": 217,
+        "percentage": 0.0273
+      },
+      {
+        "rank": 159,
+        "word": "क्रियते",
+        "frequency": 216,
+        "percentage": 0.0272
+      },
+      {
+        "rank": 160,
+        "word": "तत",
+        "frequency": 216,
+        "percentage": 0.0272
+      },
+      {
+        "rank": 161,
+        "word": "किम्",
+        "frequency": 215,
+        "percentage": 0.0271
+      },
+      {
+        "rank": 162,
+        "word": "तस्मिन्",
+        "frequency": 215,
+        "percentage": 0.0271
+      },
+      {
+        "rank": 163,
+        "word": "अहं",
+        "frequency": 214,
+        "percentage": 0.027
+      },
+      {
+        "rank": 164,
+        "word": "एष",
+        "frequency": 214,
+        "percentage": 0.027
+      },
+      {
+        "rank": 165,
+        "word": "यद्वा",
+        "frequency": 213,
+        "percentage": 0.0268
+      },
+      {
+        "rank": 166,
+        "word": "ततश्च",
+        "frequency": 212,
+        "percentage": 0.0267
+      },
+      {
+        "rank": 167,
+        "word": "जुहुयात्",
+        "frequency": 211,
+        "percentage": 0.0266
+      },
+      {
+        "rank": 168,
+        "word": "दर्शयति",
+        "frequency": 210,
+        "percentage": 0.0265
+      },
+      {
+        "rank": 169,
+        "word": "इत्याह",
+        "frequency": 209,
+        "percentage": 0.0263
+      },
+      {
+        "rank": 170,
+        "word": "स्वयं",
+        "frequency": 208,
+        "percentage": 0.0262
+      },
+      {
+        "rank": 171,
+        "word": "जो",
+        "frequency": 207,
+        "percentage": 0.0261
+      },
+      {
+        "rank": 172,
+        "word": "नं",
+        "frequency": 205,
+        "percentage": 0.0258
+      },
+      {
+        "rank": 173,
+        "word": "उच्यते",
+        "frequency": 202,
+        "percentage": 0.0254
+      },
+      {
+        "rank": 174,
+        "word": "सूत्रे",
+        "frequency": 202,
+        "percentage": 0.0254
+      },
+      {
+        "rank": 175,
+        "word": "नहि",
+        "frequency": 201,
+        "percentage": 0.0253
+      },
+      {
+        "rank": 176,
+        "word": "विशेष",
+        "frequency": 201,
+        "percentage": 0.0253
+      },
+      {
+        "rank": 177,
+        "word": "इस",
+        "frequency": 200,
+        "percentage": 0.0252
+      },
+      {
+        "rank": 178,
+        "word": "उवाच",
+        "frequency": 200,
+        "percentage": 0.0252
+      },
+      {
+        "rank": 179,
+        "word": "तथाहि",
+        "frequency": 200,
+        "percentage": 0.0252
+      },
+      {
+        "rank": 180,
+        "word": "उप्पज्जति",
+        "frequency": 199,
+        "percentage": 0.0251
+      },
+      {
+        "rank": 181,
+        "word": "चैव",
+        "frequency": 199,
+        "percentage": 0.0251
+      },
+      {
+        "rank": 182,
+        "word": "इत्यस्य",
+        "frequency": 195,
+        "percentage": 0.0246
+      },
+      {
+        "rank": 183,
+        "word": "सन्",
+        "frequency": 195,
+        "percentage": 0.0246
+      },
+      {
+        "rank": 184,
+        "word": "नापि",
+        "frequency": 194,
+        "percentage": 0.0244
+      },
+      {
+        "rank": 185,
+        "word": "स्म",
+        "frequency": 194,
+        "percentage": 0.0244
+      },
+      {
+        "rank": 186,
+        "word": "तानि",
+        "frequency": 192,
+        "percentage": 0.0242
+      },
+      {
+        "rank": 187,
+        "word": "खः",
+        "frequency": 191,
+        "percentage": 0.0241
+      },
+      {
+        "rank": 188,
+        "word": "जायते",
+        "frequency": 190,
+        "percentage": 0.0239
+      },
+      {
+        "rank": 189,
+        "word": "केवलं",
+        "frequency": 187,
+        "percentage": 0.0236
+      },
+      {
+        "rank": 190,
+        "word": "कः",
+        "frequency": 186,
+        "percentage": 0.0234
+      },
+      {
+        "rank": 191,
+        "word": "दश",
+        "frequency": 186,
+        "percentage": 0.0234
+      },
+      {
+        "rank": 192,
+        "word": "यह",
+        "frequency": 185,
+        "percentage": 0.0233
+      },
+      {
+        "rank": 193,
+        "word": "पक्षे",
+        "frequency": 184,
+        "percentage": 0.0232
+      },
+      {
+        "rank": 194,
+        "word": "एते",
+        "frequency": 182,
+        "percentage": 0.0229
+      },
+      {
+        "rank": 195,
+        "word": "आ",
+        "frequency": 180,
+        "percentage": 0.0227
+      },
+      {
+        "rank": 196,
+        "word": "इत्यादौ",
+        "frequency": 180,
+        "percentage": 0.0227
+      },
+      {
+        "rank": 197,
+        "word": "तच्च",
+        "frequency": 180,
+        "percentage": 0.0227
+      },
+      {
+        "rank": 198,
+        "word": "फलं",
+        "frequency": 179,
+        "percentage": 0.0226
+      },
+      {
+        "rank": 199,
+        "word": "बोध्यम्",
+        "frequency": 179,
+        "percentage": 0.0226
+      },
+      {
+        "rank": 200,
+        "word": "देव",
+        "frequency": 178,
+        "percentage": 0.0224
+      },
+      {
+        "rank": 201,
+        "word": "नच",
+        "frequency": 178,
+        "percentage": 0.0224
+      },
+      {
+        "rank": 202,
+        "word": "कुतः",
+        "frequency": 177,
+        "percentage": 0.0223
+      },
+      {
+        "rank": 203,
+        "word": "भाव",
+        "frequency": 177,
+        "percentage": 0.0223
+      },
+      {
+        "rank": 204,
+        "word": "रूप",
+        "frequency": 177,
+        "percentage": 0.0223
+      },
+      {
+        "rank": 205,
+        "word": "तत्रैव",
+        "frequency": 175,
+        "percentage": 0.022
+      },
+      {
+        "rank": 206,
+        "word": "नित्यं",
+        "frequency": 175,
+        "percentage": 0.022
+      },
+      {
+        "rank": 207,
+        "word": "काले",
+        "frequency": 173,
+        "percentage": 0.0218
+      },
+      {
+        "rank": 208,
+        "word": "देवा",
+        "frequency": 173,
+        "percentage": 0.0218
+      },
+      {
+        "rank": 209,
+        "word": "प",
+        "frequency": 173,
+        "percentage": 0.0218
+      },
+      {
+        "rank": 210,
+        "word": "वर्तते",
+        "frequency": 173,
+        "percentage": 0.0218
+      },
+      {
+        "rank": 211,
+        "word": "उ",
+        "frequency": 172,
+        "percentage": 0.0217
+      },
+      {
+        "rank": 212,
+        "word": "स्त्री",
+        "frequency": 170,
+        "percentage": 0.0214
+      },
+      {
+        "rank": 213,
+        "word": "चेन्न",
+        "frequency": 169,
+        "percentage": 0.0213
+      },
+      {
+        "rank": 214,
+        "word": "दु",
+        "frequency": 169,
+        "percentage": 0.0213
+      },
+      {
+        "rank": 215,
+        "word": "तस्याः",
+        "frequency": 168,
+        "percentage": 0.0212
+      },
+      {
+        "rank": 216,
+        "word": "दृष्ट्वा",
+        "frequency": 168,
+        "percentage": 0.0212
+      },
+      {
+        "rank": 217,
+        "word": "तेषु",
+        "frequency": 167,
+        "percentage": 0.021
+      },
+      {
+        "rank": 218,
+        "word": "सत्यं",
+        "frequency": 167,
+        "percentage": 0.021
+      },
+      {
+        "rank": 219,
+        "word": "परे",
+        "frequency": 166,
+        "percentage": 0.0209
+      },
+      {
+        "rank": 220,
+        "word": "यतो",
+        "frequency": 166,
+        "percentage": 0.0209
+      },
+      {
+        "rank": 221,
+        "word": "होता",
+        "frequency": 165,
+        "percentage": 0.0208
+      },
+      {
+        "rank": 222,
+        "word": "स्वाहा",
+        "frequency": 163,
+        "percentage": 0.0205
+      },
+      {
+        "rank": 223,
+        "word": "वेति",
+        "frequency": 162,
+        "percentage": 0.0204
+      },
+      {
+        "rank": 224,
+        "word": "तस्या",
+        "frequency": 159,
+        "percentage": 0.02
+      },
+      {
+        "rank": 225,
+        "word": "पा",
+        "frequency": 159,
+        "percentage": 0.02
+      },
+      {
+        "rank": 226,
+        "word": "वे",
+        "frequency": 159,
+        "percentage": 0.02
+      },
+      {
+        "rank": 227,
+        "word": "होति",
+        "frequency": 159,
+        "percentage": 0.02
+      },
+      {
+        "rank": 228,
+        "word": "कार्य",
+        "frequency": 155,
+        "percentage": 0.0195
+      },
+      {
+        "rank": 229,
+        "word": "तत्रापि",
+        "frequency": 155,
+        "percentage": 0.0195
+      },
+      {
+        "rank": 230,
+        "word": "यं",
+        "frequency": 155,
+        "percentage": 0.0195
+      },
+      {
+        "rank": 231,
+        "word": "विद्यते",
+        "frequency": 155,
+        "percentage": 0.0195
+      },
+      {
+        "rank": 232,
+        "word": "घ",
+        "frequency": 154,
+        "percentage": 0.0194
+      },
+      {
+        "rank": 233,
+        "word": "नि",
+        "frequency": 154,
+        "percentage": 0.0194
+      },
+      {
+        "rank": 234,
+        "word": "नैव",
+        "frequency": 154,
+        "percentage": 0.0194
+      },
+      {
+        "rank": 235,
+        "word": "करे",
+        "frequency": 153,
+        "percentage": 0.0193
+      },
+      {
+        "rank": 236,
+        "word": "प्राप्नोति",
+        "frequency": 153,
+        "percentage": 0.0193
+      },
+      {
+        "rank": 237,
+        "word": "सप्त",
+        "frequency": 153,
+        "percentage": 0.0193
+      },
+      {
+        "rank": 238,
+        "word": "दोषः",
+        "frequency": 152,
+        "percentage": 0.0191
+      },
+      {
+        "rank": 239,
+        "word": "हा",
+        "frequency": 152,
+        "percentage": 0.0191
+      },
+      {
+        "rank": 240,
+        "word": "देवता",
+        "frequency": 151,
+        "percentage": 0.019
+      },
+      {
+        "rank": 241,
+        "word": "कर्मणि",
+        "frequency": 150,
+        "percentage": 0.0189
+      },
+      {
+        "rank": 242,
+        "word": "कृतं",
+        "frequency": 149,
+        "percentage": 0.0188
+      },
+      {
+        "rank": 243,
+        "word": "त्वया",
+        "frequency": 148,
+        "percentage": 0.0186
+      },
+      {
+        "rank": 244,
+        "word": "येषां",
+        "frequency": 148,
+        "percentage": 0.0186
+      },
+      {
+        "rank": 245,
+        "word": "सर्वेषां",
+        "frequency": 148,
+        "percentage": 0.0186
+      },
+      {
+        "rank": 246,
+        "word": "भी",
+        "frequency": 147,
+        "percentage": 0.0185
+      },
+      {
+        "rank": 247,
+        "word": "आत्मा",
+        "frequency": 145,
+        "percentage": 0.0183
+      },
+      {
+        "rank": 248,
+        "word": "नः",
+        "frequency": 145,
+        "percentage": 0.0183
+      },
+      {
+        "rank": 249,
+        "word": "शब्द",
+        "frequency": 145,
+        "percentage": 0.0183
+      },
+      {
+        "rank": 250,
+        "word": "तदपि",
+        "frequency": 144,
+        "percentage": 0.0181
+      },
+      {
+        "rank": 251,
+        "word": "तन्न",
+        "frequency": 144,
+        "percentage": 0.0181
+      },
+      {
+        "rank": 252,
+        "word": "प्राप्त",
+        "frequency": 144,
+        "percentage": 0.0181
+      },
+      {
+        "rank": 253,
+        "word": "सम्भवति",
+        "frequency": 144,
+        "percentage": 0.0181
+      },
+      {
+        "rank": 254,
+        "word": "वयं",
+        "frequency": 143,
+        "percentage": 0.018
+      },
+      {
+        "rank": 255,
+        "word": "ए",
+        "frequency": 142,
+        "percentage": 0.0179
+      },
+      {
+        "rank": 256,
+        "word": "मनः",
+        "frequency": 142,
+        "percentage": 0.0179
+      },
+      {
+        "rank": 257,
+        "word": "इत्यनेन",
+        "frequency": 141,
+        "percentage": 0.0178
+      },
+      {
+        "rank": 258,
+        "word": "अतएव",
+        "frequency": 140,
+        "percentage": 0.0176
+      },
+      {
+        "rank": 259,
+        "word": "किंतु",
+        "frequency": 139,
+        "percentage": 0.0175
+      },
+      {
+        "rank": 260,
+        "word": "किञ्च",
+        "frequency": 139,
+        "percentage": 0.0175
+      },
+      {
+        "rank": 261,
+        "word": "क्रमेण",
+        "frequency": 139,
+        "percentage": 0.0175
+      },
+      {
+        "rank": 262,
+        "word": "त्ति",
+        "frequency": 139,
+        "percentage": 0.0175
+      },
+      {
+        "rank": 263,
+        "word": "शक्यते",
+        "frequency": 139,
+        "percentage": 0.0175
+      },
+      {
+        "rank": 264,
+        "word": "तद्",
+        "frequency": 138,
+        "percentage": 0.0174
+      },
+      {
+        "rank": 265,
+        "word": "प्रतीयते",
+        "frequency": 138,
+        "percentage": 0.0174
+      },
+      {
+        "rank": 266,
+        "word": "प्रथमं",
+        "frequency": 138,
+        "percentage": 0.0174
+      },
+      {
+        "rank": 267,
+        "word": "तस्स",
+        "frequency": 137,
+        "percentage": 0.0173
+      },
+      {
+        "rank": 268,
+        "word": "विधीयते",
+        "frequency": 137,
+        "percentage": 0.0173
+      },
+      {
+        "rank": 269,
+        "word": "षष्ठी",
+        "frequency": 137,
+        "percentage": 0.0173
+      },
+      {
+        "rank": 270,
+        "word": "छे",
+        "frequency": 136,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 271,
+        "word": "नहीं",
+        "frequency": 136,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 272,
+        "word": "विद्या",
+        "frequency": 136,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 273,
+        "word": "वो",
+        "frequency": 136,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 274,
+        "word": "सं",
+        "frequency": 136,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 275,
+        "word": "दो",
+        "frequency": 135,
+        "percentage": 0.017
+      },
+      {
+        "rank": 276,
+        "word": "नेति",
+        "frequency": 135,
+        "percentage": 0.017
+      },
+      {
+        "rank": 277,
+        "word": "एवञ्च",
+        "frequency": 134,
+        "percentage": 0.0169
+      },
+      {
+        "rank": 278,
+        "word": "जाव",
+        "frequency": 133,
+        "percentage": 0.0168
+      },
+      {
+        "rank": 279,
+        "word": "सर्गः",
+        "frequency": 133,
+        "percentage": 0.0168
+      },
+      {
+        "rank": 280,
+        "word": "प्र",
+        "frequency": 130,
+        "percentage": 0.0164
+      },
+      {
+        "rank": 281,
+        "word": "यत्तु",
+        "frequency": 130,
+        "percentage": 0.0164
+      },
+      {
+        "rank": 282,
+        "word": "पदं",
+        "frequency": 129,
+        "percentage": 0.0163
+      },
+      {
+        "rank": 283,
+        "word": "कस्य",
+        "frequency": 128,
+        "percentage": 0.0161
+      },
+      {
+        "rank": 284,
+        "word": "गृह्यते",
+        "frequency": 128,
+        "percentage": 0.0161
+      },
+      {
+        "rank": 285,
+        "word": "सर्वं",
+        "frequency": 127,
+        "percentage": 0.016
+      },
+      {
+        "rank": 286,
+        "word": "क्रिया",
+        "frequency": 125,
+        "percentage": 0.0157
+      },
+      {
+        "rank": 287,
+        "word": "छ",
+        "frequency": 125,
+        "percentage": 0.0157
+      },
+      {
+        "rank": 288,
+        "word": "देवी",
+        "frequency": 124,
+        "percentage": 0.0156
+      },
+      {
+        "rank": 289,
+        "word": "परन्तु",
+        "frequency": 124,
+        "percentage": 0.0156
+      },
+      {
+        "rank": 290,
+        "word": "त्वा",
+        "frequency": 123,
+        "percentage": 0.0155
+      },
+      {
+        "rank": 291,
+        "word": "स्थाने",
+        "frequency": 123,
+        "percentage": 0.0155
+      },
+      {
+        "rank": 292,
+        "word": "इत्यत",
+        "frequency": 122,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 293,
+        "word": "खो",
+        "frequency": 122,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 294,
+        "word": "था",
+        "frequency": 122,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 295,
+        "word": "धर्म",
+        "frequency": 122,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 296,
+        "word": "रूपं",
+        "frequency": 122,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 297,
+        "word": "हेतुः",
+        "frequency": 122,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 298,
+        "word": "तया",
+        "frequency": 121,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 299,
+        "word": "नतु",
+        "frequency": 121,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 300,
+        "word": "यानि",
+        "frequency": 120,
+        "percentage": 0.0151
+      },
+      {
+        "rank": 301,
+        "word": "नास्तीति",
+        "frequency": 119,
+        "percentage": 0.015
+      },
+      {
+        "rank": 302,
+        "word": "कारणं",
+        "frequency": 118,
+        "percentage": 0.0149
+      },
+      {
+        "rank": 303,
+        "word": "दोष",
+        "frequency": 118,
+        "percentage": 0.0149
+      },
+      {
+        "rank": 304,
+        "word": "यद्",
+        "frequency": 118,
+        "percentage": 0.0149
+      },
+      {
+        "rank": 305,
+        "word": "पुरा",
+        "frequency": 117,
+        "percentage": 0.0147
+      },
+      {
+        "rank": 306,
+        "word": "वाच्यं",
+        "frequency": 117,
+        "percentage": 0.0147
+      },
+      {
+        "rank": 307,
+        "word": "संभवति",
+        "frequency": 117,
+        "percentage": 0.0147
+      },
+      {
+        "rank": 308,
+        "word": "आसीत्",
+        "frequency": 116,
+        "percentage": 0.0146
+      },
+      {
+        "rank": 309,
+        "word": "किया",
+        "frequency": 115,
+        "percentage": 0.0145
+      },
+      {
+        "rank": 310,
+        "word": "केन",
+        "frequency": 114,
+        "percentage": 0.0144
+      },
+      {
+        "rank": 311,
+        "word": "तस्यैव",
+        "frequency": 114,
+        "percentage": 0.0144
+      },
+      {
+        "rank": 312,
+        "word": "पन",
+        "frequency": 114,
+        "percentage": 0.0144
+      },
+      {
+        "rank": 313,
+        "word": "प्रत्येकं",
+        "frequency": 114,
+        "percentage": 0.0144
+      },
+      {
+        "rank": 314,
+        "word": "लभते",
+        "frequency": 114,
+        "percentage": 0.0144
+      },
+      {
+        "rank": 315,
+        "word": "एप",
+        "frequency": 112,
+        "percentage": 0.0141
+      },
+      {
+        "rank": 316,
+        "word": "ज",
+        "frequency": 112,
+        "percentage": 0.0141
+      },
+      {
+        "rank": 317,
+        "word": "प्रथम",
+        "frequency": 112,
+        "percentage": 0.0141
+      },
+      {
+        "rank": 318,
+        "word": "अन्यत्र",
+        "frequency": 111,
+        "percentage": 0.014
+      },
+      {
+        "rank": 319,
+        "word": "किमपि",
+        "frequency": 111,
+        "percentage": 0.014
+      },
+      {
+        "rank": 320,
+        "word": "कुर्यात्",
+        "frequency": 111,
+        "percentage": 0.014
+      },
+      {
+        "rank": 321,
+        "word": "तासां",
+        "frequency": 111,
+        "percentage": 0.014
+      },
+      {
+        "rank": 322,
+        "word": "त्वां",
+        "frequency": 111,
+        "percentage": 0.014
+      },
+      {
+        "rank": 323,
+        "word": "अस्मिन्",
+        "frequency": 110,
+        "percentage": 0.0139
+      },
+      {
+        "rank": 324,
+        "word": "तावत्",
+        "frequency": 110,
+        "percentage": 0.0139
+      },
+      {
+        "rank": 325,
+        "word": "नव",
+        "frequency": 110,
+        "percentage": 0.0139
+      },
+      {
+        "rank": 326,
+        "word": "प्रकार",
+        "frequency": 110,
+        "percentage": 0.0139
+      },
+      {
+        "rank": 327,
+        "word": "त्या",
+        "frequency": 109,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 328,
+        "word": "नु",
+        "frequency": 109,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 329,
+        "word": "पुत्र",
+        "frequency": 109,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 330,
+        "word": "मन",
+        "frequency": 109,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 331,
+        "word": "लभ्यते",
+        "frequency": 109,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 332,
+        "word": "वचनं",
+        "frequency": 109,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 333,
+        "word": "भाष्ये",
+        "frequency": 108,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 334,
+        "word": "विशेषः",
+        "frequency": 108,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 335,
+        "word": "विषये",
+        "frequency": 108,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 336,
+        "word": "संशयः",
+        "frequency": 108,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 337,
+        "word": "सर्वथा",
+        "frequency": 108,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 338,
+        "word": "इत्येवं",
+        "frequency": 107,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 339,
+        "word": "गच्छति",
+        "frequency": 107,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 340,
+        "word": "तृतीया",
+        "frequency": 107,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 341,
+        "word": "तेसं",
+        "frequency": 107,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 342,
+        "word": "ददाति",
+        "frequency": 107,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 343,
+        "word": "प्राप्ते",
+        "frequency": 107,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 344,
+        "word": "भगवान्",
+        "frequency": 107,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 345,
+        "word": "रिति",
+        "frequency": 107,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 346,
+        "word": "सिद्धे",
+        "frequency": 107,
+        "percentage": 0.0135
+      },
+      {
+        "rank": 347,
+        "word": "तदाह",
+        "frequency": 106,
+        "percentage": 0.0134
+      },
+      {
+        "rank": 348,
+        "word": "तयोः",
+        "frequency": 106,
+        "percentage": 0.0134
+      },
+      {
+        "rank": 349,
+        "word": "सर्वदा",
+        "frequency": 106,
+        "percentage": 0.0134
+      },
+      {
+        "rank": 350,
+        "word": "ऽपि",
+        "frequency": 106,
+        "percentage": 0.0134
+      },
+      {
+        "rank": 351,
+        "word": "कर्माणि",
+        "frequency": 105,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 352,
+        "word": "गत्वा",
+        "frequency": 105,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 353,
+        "word": "ज्ञान",
+        "frequency": 105,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 354,
+        "word": "पृथक्",
+        "frequency": 105,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 355,
+        "word": "श्रुत्वा",
+        "frequency": 105,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 356,
+        "word": "उक्तं",
+        "frequency": 104,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 357,
+        "word": "कर",
+        "frequency": 104,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 358,
+        "word": "गृहीत्वा",
+        "frequency": 104,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 359,
+        "word": "चेव",
+        "frequency": 104,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 360,
+        "word": "जाता",
+        "frequency": 104,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 361,
+        "word": "जे",
+        "frequency": 104,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 362,
+        "word": "पु",
+        "frequency": 104,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 363,
+        "word": "पूर्वं",
+        "frequency": 104,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 364,
+        "word": "विषय",
+        "frequency": 104,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 365,
+        "word": "इत्येव",
+        "frequency": 103,
+        "percentage": 0.013
+      },
+      {
+        "rank": 366,
+        "word": "परमं",
+        "frequency": 103,
+        "percentage": 0.013
+      },
+      {
+        "rank": 367,
+        "word": "भिक्खवे",
+        "frequency": 103,
+        "percentage": 0.013
+      },
+      {
+        "rank": 368,
+        "word": "हेतु",
+        "frequency": 103,
+        "percentage": 0.013
+      },
+      {
+        "rank": 369,
+        "word": "अन्ये",
+        "frequency": 102,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 370,
+        "word": "द्वितीये",
+        "frequency": 102,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 371,
+        "word": "युक्तम्",
+        "frequency": 102,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 372,
+        "word": "श्रूयते",
+        "frequency": 102,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 373,
+        "word": "घट",
+        "frequency": 101,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 374,
+        "word": "ण",
+        "frequency": 101,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 375,
+        "word": "ताः",
+        "frequency": 101,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 376,
+        "word": "द्वितीया",
+        "frequency": 101,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 377,
+        "word": "स्थिते",
+        "frequency": 101,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 378,
+        "word": "तौ",
+        "frequency": 100,
+        "percentage": 0.0126
+      },
+      {
+        "rank": 379,
+        "word": "प्रकारेण",
+        "frequency": 100,
+        "percentage": 0.0126
+      },
+      {
+        "rank": 380,
+        "word": "प्रथमः",
+        "frequency": 100,
+        "percentage": 0.0126
+      },
+      {
+        "rank": 381,
+        "word": "परा",
+        "frequency": 99,
+        "percentage": 0.0125
+      },
+      {
+        "rank": 382,
+        "word": "वस्तु",
+        "frequency": 99,
+        "percentage": 0.0125
+      },
+      {
+        "rank": 383,
+        "word": "कारण",
+        "frequency": 98,
+        "percentage": 0.0123
+      },
+      {
+        "rank": 384,
+        "word": "द्वितीयः",
+        "frequency": 98,
+        "percentage": 0.0123
+      },
+      {
+        "rank": 385,
+        "word": "पश्यति",
+        "frequency": 98,
+        "percentage": 0.0123
+      },
+      {
+        "rank": 386,
+        "word": "पुरुष",
+        "frequency": 98,
+        "percentage": 0.0123
+      },
+      {
+        "rank": 387,
+        "word": "वह",
+        "frequency": 98,
+        "percentage": 0.0123
+      },
+      {
+        "rank": 388,
+        "word": "इत्यपि",
+        "frequency": 97,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 389,
+        "word": "इयं",
+        "frequency": 97,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 390,
+        "word": "वदन्ति",
+        "frequency": 97,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 391,
+        "word": "वेद",
+        "frequency": 97,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 392,
+        "word": "शब्दस्य",
+        "frequency": 97,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 393,
+        "word": "सिध्यति",
+        "frequency": 97,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 394,
+        "word": "सुखं",
+        "frequency": 97,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 395,
+        "word": "भूत्वा",
+        "frequency": 96,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 396,
+        "word": "यस्मिन्",
+        "frequency": 96,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 397,
+        "word": "इदानीं",
+        "frequency": 95,
+        "percentage": 0.012
+      },
+      {
+        "rank": 398,
+        "word": "तेनैव",
+        "frequency": 95,
+        "percentage": 0.012
+      },
+      {
+        "rank": 399,
+        "word": "सम्बन्धः",
+        "frequency": 95,
+        "percentage": 0.012
+      },
+      {
+        "rank": 400,
+        "word": "अन्य",
+        "frequency": 94,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 401,
+        "word": "मनसा",
+        "frequency": 94,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 402,
+        "word": "साधु",
+        "frequency": 94,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 403,
+        "word": "सिद्धम्",
+        "frequency": 94,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 404,
+        "word": "गतः",
+        "frequency": 93,
+        "percentage": 0.0117
+      },
+      {
+        "rank": 405,
+        "word": "जहा",
+        "frequency": 92,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 406,
+        "word": "पूर्ववत्",
+        "frequency": 92,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 407,
+        "word": "प्रयोगः",
+        "frequency": 92,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 408,
+        "word": "भवतः",
+        "frequency": 92,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 409,
+        "word": "याति",
+        "frequency": 92,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 410,
+        "word": "व्याख्या",
+        "frequency": 92,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 411,
+        "word": "कुतो",
+        "frequency": 91,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 412,
+        "word": "दिति",
+        "frequency": 91,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 413,
+        "word": "भावे",
+        "frequency": 91,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 414,
+        "word": "स्वयमेव",
+        "frequency": 91,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 415,
+        "word": "इत्थं",
+        "frequency": 90,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 416,
+        "word": "एतत्",
+        "frequency": 90,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 417,
+        "word": "कथम्",
+        "frequency": 90,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 418,
+        "word": "केचित्",
+        "frequency": 90,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 419,
+        "word": "भव",
+        "frequency": 90,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 420,
+        "word": "दिने",
+        "frequency": 89,
+        "percentage": 0.0112
+      },
+      {
+        "rank": 421,
+        "word": "आदि",
+        "frequency": 88,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 422,
+        "word": "उत",
+        "frequency": 88,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 423,
+        "word": "कृतम्",
+        "frequency": 88,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 424,
+        "word": "गम्यते",
+        "frequency": 88,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 425,
+        "word": "जातः",
+        "frequency": 88,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 426,
+        "word": "तम्",
+        "frequency": 88,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 427,
+        "word": "ब्रह्मा",
+        "frequency": 88,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 428,
+        "word": "भवान्",
+        "frequency": 88,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 429,
+        "word": "यत",
+        "frequency": 88,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 430,
+        "word": "युक्त",
+        "frequency": 87,
+        "percentage": 0.011
+      },
+      {
+        "rank": 431,
+        "word": "अर्थ",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 432,
+        "word": "इ",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 433,
+        "word": "एतच्च",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 434,
+        "word": "काल",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 435,
+        "word": "जीव",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 436,
+        "word": "तैः",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 437,
+        "word": "थाय",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 438,
+        "word": "द्रष्टव्यम्",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 439,
+        "word": "परः",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 440,
+        "word": "परस्य",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 441,
+        "word": "प्रकृते",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 442,
+        "word": "प्रत्ययः",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 443,
+        "word": "श्रुतेः",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 444,
+        "word": "सिद्धं",
+        "frequency": 86,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 445,
+        "word": "अहो",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 446,
+        "word": "काम",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 447,
+        "word": "चापि",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 448,
+        "word": "तद्यथा",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 449,
+        "word": "द्वौ",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 450,
+        "word": "भिक्खु",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 451,
+        "word": "मनो",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 452,
+        "word": "वाक्यं",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 453,
+        "word": "विशिष्ट",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 454,
+        "word": "सम्यक्",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 455,
+        "word": "सर्वस्य",
+        "frequency": 85,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 456,
+        "word": "एवमेव",
+        "frequency": 84,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 457,
+        "word": "कारणम्",
+        "frequency": 84,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 458,
+        "word": "कृतः",
+        "frequency": 84,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 459,
+        "word": "कोऽपि",
+        "frequency": 84,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 460,
+        "word": "ज्ञानस्य",
+        "frequency": 84,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 461,
+        "word": "धनं",
+        "frequency": 84,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 462,
+        "word": "पिता",
+        "frequency": 84,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 463,
+        "word": "शब्दः",
+        "frequency": 84,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 464,
+        "word": "हीति",
+        "frequency": 84,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 465,
+        "word": "अर्थात्",
+        "frequency": 83,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 466,
+        "word": "उक्त",
+        "frequency": 83,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 467,
+        "word": "देवानां",
+        "frequency": 83,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 468,
+        "word": "प्रमाणं",
+        "frequency": 83,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 469,
+        "word": "वक्तुं",
+        "frequency": 83,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 470,
+        "word": "किल",
+        "frequency": 82,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 471,
+        "word": "क्वचित्",
+        "frequency": 82,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 472,
+        "word": "खँ",
+        "frequency": 82,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 473,
+        "word": "तस्मै",
+        "frequency": 82,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 474,
+        "word": "पुरुषः",
+        "frequency": 82,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 475,
+        "word": "प्राक्",
+        "frequency": 82,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 476,
+        "word": "युक्तं",
+        "frequency": 82,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 477,
+        "word": "स्युः",
+        "frequency": 82,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 478,
+        "word": "किमिति",
+        "frequency": 81,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 479,
+        "word": "कृता",
+        "frequency": 81,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 480,
+        "word": "धर्मः",
+        "frequency": 81,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 481,
+        "word": "व्याचष्टे",
+        "frequency": 81,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 482,
+        "word": "सि",
+        "frequency": 81,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 483,
+        "word": "स्थितम्",
+        "frequency": 81,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 484,
+        "word": "गते",
+        "frequency": 80,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 485,
+        "word": "चैवं",
+        "frequency": 80,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 486,
+        "word": "माता",
+        "frequency": 80,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 487,
+        "word": "सोऽपि",
+        "frequency": 80,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 488,
+        "word": "प्राप्य",
+        "frequency": 79,
+        "percentage": 0.01
+      },
+      {
+        "rank": 489,
+        "word": "भवतु",
+        "frequency": 79,
+        "percentage": 0.01
+      },
+      {
+        "rank": 490,
+        "word": "भो",
+        "frequency": 79,
+        "percentage": 0.01
+      },
+      {
+        "rank": 491,
+        "word": "विधिः",
+        "frequency": 79,
+        "percentage": 0.01
+      },
+      {
+        "rank": 492,
+        "word": "इमं",
+        "frequency": 78,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 493,
+        "word": "कर्ता",
+        "frequency": 78,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 494,
+        "word": "कला",
+        "frequency": 78,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 495,
+        "word": "दे",
+        "frequency": 78,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 496,
+        "word": "द्वितीय",
+        "frequency": 78,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 497,
+        "word": "पातु",
+        "frequency": 78,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 498,
+        "word": "समं",
+        "frequency": 78,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 499,
+        "word": "सर्वा",
+        "frequency": 78,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 500,
+        "word": "होय",
+        "frequency": 78,
+        "percentage": 0.0098
+      }
+    ]
+  },
+  "Cleaned V2": {
+    "name": "Cleaned V2",
+    "file_path": "data\\processed\\clean_corpus_v2.txt",
+    "summary": {
+      "tokens": 803139,
+      "types": 398164,
+      "type_token_ratio": 0.49575976263137517,
+      "ttr_percentage": 49.58,
+      "hapax_legomena": 340964,
+      "hapax_type_percentage": 85.63,
+      "hapax_token_percentage": 42.45,
+      "dis_legomena": 28707
+    },
+    "coverage": {
+      "10%": {
+        "target_coverage": 0.1,
+        "types_required": 25,
+        "type_percentage": 0.0063,
+        "tokens_accumulated": 80535,
+        "actual_coverage": 0.100275
+      },
+      "25%": {
+        "target_coverage": 0.25,
+        "types_required": 816,
+        "type_percentage": 0.2049,
+        "tokens_accumulated": 200795,
+        "actual_coverage": 0.250013
+      },
+      "50%": {
+        "target_coverage": 0.5,
+        "types_required": 27430,
+        "type_percentage": 6.8891,
+        "tokens_accumulated": 401572,
+        "actual_coverage": 0.500003
+      },
+      "75%": {
+        "target_coverage": 0.75,
+        "types_required": 197380,
+        "type_percentage": 49.5725,
+        "tokens_accumulated": 602355,
+        "actual_coverage": 0.750001
+      },
+      "90%": {
+        "target_coverage": 0.9,
+        "types_required": 317851,
+        "type_percentage": 79.8292,
+        "tokens_accumulated": 722826,
+        "actual_coverage": 0.900001
+      },
+      "95%": {
+        "target_coverage": 0.95,
+        "types_required": 358008,
+        "type_percentage": 89.9147,
+        "tokens_accumulated": 762983,
+        "actual_coverage": 0.950001
+      },
+      "99%": {
+        "target_coverage": 0.99,
+        "types_required": 390133,
+        "type_percentage": 97.983,
+        "tokens_accumulated": 795108,
+        "actual_coverage": 0.99
+      }
+    },
+    "zipf": {
+      "slope": -0.4622,
+      "zipf_exponent_s": 0.4622,
+      "intercept": 2.4648,
+      "r_squared": 0.7471
+    },
+    "top_words": [
+      {
+        "rank": 1,
+        "word": "इति",
+        "frequency": 13630,
+        "percentage": 1.6971
+      },
+      {
+        "rank": 2,
+        "word": "न",
+        "frequency": 11896,
+        "percentage": 1.4812
+      },
+      {
+        "rank": 3,
+        "word": "च",
+        "frequency": 10894,
+        "percentage": 1.3564
+      },
+      {
+        "rank": 4,
+        "word": "वा",
+        "frequency": 4284,
+        "percentage": 0.5334
+      },
+      {
+        "rank": 5,
+        "word": "तु",
+        "frequency": 3862,
+        "percentage": 0.4809
+      },
+      {
+        "rank": 6,
+        "word": "एव",
+        "frequency": 3230,
+        "percentage": 0.4022
+      },
+      {
+        "rank": 7,
+        "word": "तथा",
+        "frequency": 3130,
+        "percentage": 0.3897
+      },
+      {
+        "rank": 8,
+        "word": "स",
+        "frequency": 3079,
+        "percentage": 0.3834
+      },
+      {
+        "rank": 9,
+        "word": "हि",
+        "frequency": 2562,
+        "percentage": 0.319
+      },
+      {
+        "rank": 10,
+        "word": "तत्र",
+        "frequency": 2400,
+        "percentage": 0.2988
+      },
+      {
+        "rank": 11,
+        "word": "भवति",
+        "frequency": 2235,
+        "percentage": 0.2783
+      },
+      {
+        "rank": 12,
+        "word": "एवं",
+        "frequency": 2162,
+        "percentage": 0.2692
+      },
+      {
+        "rank": 13,
+        "word": "यथा",
+        "frequency": 1783,
+        "percentage": 0.222
+      },
+      {
+        "rank": 14,
+        "word": "तस्य",
+        "frequency": 1740,
+        "percentage": 0.2166
+      },
+      {
+        "rank": 15,
+        "word": "ते",
+        "frequency": 1657,
+        "percentage": 0.2063
+      },
+      {
+        "rank": 16,
+        "word": "भावः",
+        "frequency": 1557,
+        "percentage": 0.1939
+      },
+      {
+        "rank": 17,
+        "word": "स्यात्",
+        "frequency": 1315,
+        "percentage": 0.1637
+      },
+      {
+        "rank": 18,
+        "word": "किं",
+        "frequency": 1304,
+        "percentage": 0.1624
+      },
+      {
+        "rank": 19,
+        "word": "अथ",
+        "frequency": 1216,
+        "percentage": 0.1514
+      },
+      {
+        "rank": 20,
+        "word": "तेन",
+        "frequency": 1190,
+        "percentage": 0.1482
+      },
+      {
+        "rank": 21,
+        "word": "ननु",
+        "frequency": 1107,
+        "percentage": 0.1378
+      },
+      {
+        "rank": 22,
+        "word": "ति",
+        "frequency": 1104,
+        "percentage": 0.1375
+      },
+      {
+        "rank": 23,
+        "word": "यदि",
+        "frequency": 1104,
+        "percentage": 0.1375
+      },
+      {
+        "rank": 24,
+        "word": "के",
+        "frequency": 1076,
+        "percentage": 0.134
+      },
+      {
+        "rank": 25,
+        "word": "व",
+        "frequency": 1018,
+        "percentage": 0.1268
+      },
+      {
+        "rank": 26,
+        "word": "सा",
+        "frequency": 968,
+        "percentage": 0.1205
+      },
+      {
+        "rank": 27,
+        "word": "अत्र",
+        "frequency": 961,
+        "percentage": 0.1197
+      },
+      {
+        "rank": 28,
+        "word": "इत्यर्थः",
+        "frequency": 960,
+        "percentage": 0.1195
+      },
+      {
+        "rank": 29,
+        "word": "का",
+        "frequency": 956,
+        "percentage": 0.119
+      },
+      {
+        "rank": 30,
+        "word": "या",
+        "frequency": 916,
+        "percentage": 0.1141
+      },
+      {
+        "rank": 31,
+        "word": "से",
+        "frequency": 896,
+        "percentage": 0.1116
+      },
+      {
+        "rank": 32,
+        "word": "तं",
+        "frequency": 875,
+        "percentage": 0.1089
+      },
+      {
+        "rank": 33,
+        "word": "तदा",
+        "frequency": 853,
+        "percentage": 0.1062
+      },
+      {
+        "rank": 34,
+        "word": "मे",
+        "frequency": 843,
+        "percentage": 0.105
+      },
+      {
+        "rank": 35,
+        "word": "कथं",
+        "frequency": 820,
+        "percentage": 0.1021
+      },
+      {
+        "rank": 36,
+        "word": "है",
+        "frequency": 818,
+        "percentage": 0.1019
+      },
+      {
+        "rank": 37,
+        "word": "य",
+        "frequency": 800,
+        "percentage": 0.0996
+      },
+      {
+        "rank": 38,
+        "word": "ततः",
+        "frequency": 796,
+        "percentage": 0.0991
+      },
+      {
+        "rank": 39,
+        "word": "अत",
+        "frequency": 792,
+        "percentage": 0.0986
+      },
+      {
+        "rank": 40,
+        "word": "ये",
+        "frequency": 783,
+        "percentage": 0.0975
+      },
+      {
+        "rank": 41,
+        "word": "नाम",
+        "frequency": 779,
+        "percentage": 0.097
+      },
+      {
+        "rank": 42,
+        "word": "सति",
+        "frequency": 765,
+        "percentage": 0.0953
+      },
+      {
+        "rank": 43,
+        "word": "यो",
+        "frequency": 713,
+        "percentage": 0.0888
+      },
+      {
+        "rank": 44,
+        "word": "हे",
+        "frequency": 708,
+        "percentage": 0.0882
+      },
+      {
+        "rank": 45,
+        "word": "यस्य",
+        "frequency": 701,
+        "percentage": 0.0873
+      },
+      {
+        "rank": 46,
+        "word": "चेत्",
+        "frequency": 690,
+        "percentage": 0.0859
+      },
+      {
+        "rank": 47,
+        "word": "अपि",
+        "frequency": 647,
+        "percentage": 0.0806
+      },
+      {
+        "rank": 48,
+        "word": "यत्र",
+        "frequency": 638,
+        "percentage": 0.0794
+      },
+      {
+        "rank": 49,
+        "word": "तत्",
+        "frequency": 635,
+        "percentage": 0.0791
+      },
+      {
+        "rank": 50,
+        "word": "कृत्वा",
+        "frequency": 629,
+        "percentage": 0.0783
+      },
+      {
+        "rank": 51,
+        "word": "प्रति",
+        "frequency": 613,
+        "percentage": 0.0763
+      },
+      {
+        "rank": 52,
+        "word": "पुनः",
+        "frequency": 604,
+        "percentage": 0.0752
+      },
+      {
+        "rank": 53,
+        "word": "को",
+        "frequency": 597,
+        "percentage": 0.0743
+      },
+      {
+        "rank": 54,
+        "word": "सह",
+        "frequency": 595,
+        "percentage": 0.0741
+      },
+      {
+        "rank": 55,
+        "word": "ततो",
+        "frequency": 581,
+        "percentage": 0.0723
+      },
+      {
+        "rank": 56,
+        "word": "क",
+        "frequency": 558,
+        "percentage": 0.0695
+      },
+      {
+        "rank": 57,
+        "word": "मा",
+        "frequency": 539,
+        "percentage": 0.0671
+      },
+      {
+        "rank": 58,
+        "word": "इव",
+        "frequency": 529,
+        "percentage": 0.0659
+      },
+      {
+        "rank": 59,
+        "word": "यः",
+        "frequency": 517,
+        "percentage": 0.0644
+      },
+      {
+        "rank": 60,
+        "word": "यत्",
+        "frequency": 516,
+        "percentage": 0.0642
+      },
+      {
+        "rank": 61,
+        "word": "में",
+        "frequency": 512,
+        "percentage": 0.0637
+      },
+      {
+        "rank": 62,
+        "word": "आह",
+        "frequency": 500,
+        "percentage": 0.0623
+      },
+      {
+        "rank": 63,
+        "word": "तर्हि",
+        "frequency": 489,
+        "percentage": 0.0609
+      },
+      {
+        "rank": 64,
+        "word": "तेषां",
+        "frequency": 487,
+        "percentage": 0.0606
+      },
+      {
+        "rank": 65,
+        "word": "मम",
+        "frequency": 485,
+        "percentage": 0.0604
+      },
+      {
+        "rank": 66,
+        "word": "तो",
+        "frequency": 480,
+        "percentage": 0.0598
+      },
+      {
+        "rank": 67,
+        "word": "यदा",
+        "frequency": 480,
+        "percentage": 0.0598
+      },
+      {
+        "rank": 68,
+        "word": "मिति",
+        "frequency": 471,
+        "percentage": 0.0586
+      },
+      {
+        "rank": 69,
+        "word": "इत्यादि",
+        "frequency": 461,
+        "percentage": 0.0574
+      },
+      {
+        "rank": 70,
+        "word": "येन",
+        "frequency": 454,
+        "percentage": 0.0565
+      },
+      {
+        "rank": 71,
+        "word": "भवेत्",
+        "frequency": 448,
+        "percentage": 0.0558
+      },
+      {
+        "rank": 72,
+        "word": "सः",
+        "frequency": 443,
+        "percentage": 0.0552
+      },
+      {
+        "rank": 73,
+        "word": "चेति",
+        "frequency": 437,
+        "percentage": 0.0544
+      },
+      {
+        "rank": 74,
+        "word": "त",
+        "frequency": 437,
+        "percentage": 0.0544
+      },
+      {
+        "rank": 75,
+        "word": "भवन्ति",
+        "frequency": 426,
+        "percentage": 0.053
+      },
+      {
+        "rank": 76,
+        "word": "नास्ति",
+        "frequency": 425,
+        "percentage": 0.0529
+      },
+      {
+        "rank": 77,
+        "word": "वै",
+        "frequency": 421,
+        "percentage": 0.0524
+      },
+      {
+        "rank": 78,
+        "word": "अन्यथा",
+        "frequency": 419,
+        "percentage": 0.0522
+      },
+      {
+        "rank": 79,
+        "word": "म",
+        "frequency": 414,
+        "percentage": 0.0515
+      },
+      {
+        "rank": 80,
+        "word": "सर्वे",
+        "frequency": 406,
+        "percentage": 0.0506
+      },
+      {
+        "rank": 81,
+        "word": "कि",
+        "frequency": 398,
+        "percentage": 0.0496
+      },
+      {
+        "rank": 82,
+        "word": "वि",
+        "frequency": 386,
+        "percentage": 0.0481
+      },
+      {
+        "rank": 83,
+        "word": "वाच्यम्",
+        "frequency": 383,
+        "percentage": 0.0477
+      },
+      {
+        "rank": 84,
+        "word": "अतः",
+        "frequency": 382,
+        "percentage": 0.0476
+      },
+      {
+        "rank": 85,
+        "word": "इत्यत्र",
+        "frequency": 382,
+        "percentage": 0.0476
+      },
+      {
+        "rank": 86,
+        "word": "इह",
+        "frequency": 382,
+        "percentage": 0.0476
+      },
+      {
+        "rank": 87,
+        "word": "तथापि",
+        "frequency": 382,
+        "percentage": 0.0476
+      },
+      {
+        "rank": 88,
+        "word": "कर्म",
+        "frequency": 377,
+        "percentage": 0.0469
+      },
+      {
+        "rank": 89,
+        "word": "राजा",
+        "frequency": 377,
+        "percentage": 0.0469
+      },
+      {
+        "rank": 90,
+        "word": "शेषः",
+        "frequency": 376,
+        "percentage": 0.0468
+      },
+      {
+        "rank": 91,
+        "word": "यावत्",
+        "frequency": 371,
+        "percentage": 0.0462
+      },
+      {
+        "rank": 92,
+        "word": "द्वे",
+        "frequency": 364,
+        "percentage": 0.0453
+      },
+      {
+        "rank": 93,
+        "word": "मया",
+        "frequency": 364,
+        "percentage": 0.0453
+      },
+      {
+        "rank": 94,
+        "word": "परं",
+        "frequency": 354,
+        "percentage": 0.0441
+      },
+      {
+        "rank": 95,
+        "word": "सर्व",
+        "frequency": 354,
+        "percentage": 0.0441
+      },
+      {
+        "rank": 96,
+        "word": "नमः",
+        "frequency": 348,
+        "percentage": 0.0433
+      },
+      {
+        "rank": 97,
+        "word": "ॐ",
+        "frequency": 345,
+        "percentage": 0.043
+      },
+      {
+        "rank": 98,
+        "word": "किन्तु",
+        "frequency": 341,
+        "percentage": 0.0425
+      },
+      {
+        "rank": 99,
+        "word": "पाठः",
+        "frequency": 341,
+        "percentage": 0.0425
+      },
+      {
+        "rank": 100,
+        "word": "नो",
+        "frequency": 340,
+        "percentage": 0.0423
+      },
+      {
+        "rank": 101,
+        "word": "त्वं",
+        "frequency": 339,
+        "percentage": 0.0422
+      },
+      {
+        "rank": 102,
+        "word": "इदं",
+        "frequency": 338,
+        "percentage": 0.0421
+      },
+      {
+        "rank": 103,
+        "word": "तव",
+        "frequency": 338,
+        "percentage": 0.0421
+      },
+      {
+        "rank": 104,
+        "word": "की",
+        "frequency": 337,
+        "percentage": 0.042
+      },
+      {
+        "rank": 105,
+        "word": "और",
+        "frequency": 333,
+        "percentage": 0.0415
+      },
+      {
+        "rank": 106,
+        "word": "करोति",
+        "frequency": 315,
+        "percentage": 0.0392
+      },
+      {
+        "rank": 107,
+        "word": "स्यादिति",
+        "frequency": 312,
+        "percentage": 0.0388
+      },
+      {
+        "rank": 108,
+        "word": "पूर्व",
+        "frequency": 309,
+        "percentage": 0.0385
+      },
+      {
+        "rank": 109,
+        "word": "पर",
+        "frequency": 297,
+        "percentage": 0.037
+      },
+      {
+        "rank": 110,
+        "word": "अतो",
+        "frequency": 296,
+        "percentage": 0.0369
+      },
+      {
+        "rank": 111,
+        "word": "यद्यपि",
+        "frequency": 296,
+        "percentage": 0.0369
+      },
+      {
+        "rank": 112,
+        "word": "भवतीति",
+        "frequency": 295,
+        "percentage": 0.0367
+      },
+      {
+        "rank": 113,
+        "word": "अ",
+        "frequency": 294,
+        "percentage": 0.0366
+      },
+      {
+        "rank": 114,
+        "word": "ग",
+        "frequency": 290,
+        "percentage": 0.0361
+      },
+      {
+        "rank": 115,
+        "word": "हो",
+        "frequency": 290,
+        "percentage": 0.0361
+      },
+      {
+        "rank": 116,
+        "word": "सदा",
+        "frequency": 281,
+        "percentage": 0.035
+      },
+      {
+        "rank": 117,
+        "word": "अस्य",
+        "frequency": 280,
+        "percentage": 0.0349
+      },
+      {
+        "rank": 118,
+        "word": "सो",
+        "frequency": 280,
+        "percentage": 0.0349
+      },
+      {
+        "rank": 119,
+        "word": "ब्रह्म",
+        "frequency": 279,
+        "percentage": 0.0347
+      },
+      {
+        "rank": 120,
+        "word": "तस्मात्",
+        "frequency": 278,
+        "percentage": 0.0346
+      },
+      {
+        "rank": 121,
+        "word": "विना",
+        "frequency": 278,
+        "percentage": 0.0346
+      },
+      {
+        "rank": 122,
+        "word": "अथवा",
+        "frequency": 277,
+        "percentage": 0.0345
+      },
+      {
+        "rank": 123,
+        "word": "ख",
+        "frequency": 277,
+        "percentage": 0.0345
+      },
+      {
+        "rank": 124,
+        "word": "अयं",
+        "frequency": 272,
+        "percentage": 0.0339
+      },
+      {
+        "rank": 125,
+        "word": "तथाच",
+        "frequency": 271,
+        "percentage": 0.0337
+      },
+      {
+        "rank": 126,
+        "word": "मां",
+        "frequency": 270,
+        "percentage": 0.0336
+      },
+      {
+        "rank": 127,
+        "word": "खलु",
+        "frequency": 269,
+        "percentage": 0.0335
+      },
+      {
+        "rank": 128,
+        "word": "भविष्यति",
+        "frequency": 267,
+        "percentage": 0.0332
+      },
+      {
+        "rank": 129,
+        "word": "श्री",
+        "frequency": 264,
+        "percentage": 0.0329
+      },
+      {
+        "rank": 130,
+        "word": "लोके",
+        "frequency": 261,
+        "percentage": 0.0325
+      },
+      {
+        "rank": 131,
+        "word": "ने",
+        "frequency": 258,
+        "percentage": 0.0321
+      },
+      {
+        "rank": 132,
+        "word": "र",
+        "frequency": 258,
+        "percentage": 0.0321
+      },
+      {
+        "rank": 133,
+        "word": "सर्वत्र",
+        "frequency": 251,
+        "percentage": 0.0313
+      },
+      {
+        "rank": 134,
+        "word": "ता",
+        "frequency": 249,
+        "percentage": 0.031
+      },
+      {
+        "rank": 135,
+        "word": "णं",
+        "frequency": 245,
+        "percentage": 0.0305
+      },
+      {
+        "rank": 136,
+        "word": "एक",
+        "frequency": 244,
+        "percentage": 0.0304
+      },
+      {
+        "rank": 137,
+        "word": "मध्ये",
+        "frequency": 244,
+        "percentage": 0.0304
+      },
+      {
+        "rank": 138,
+        "word": "इत्यमरः",
+        "frequency": 242,
+        "percentage": 0.0301
+      },
+      {
+        "rank": 139,
+        "word": "कृते",
+        "frequency": 241,
+        "percentage": 0.03
+      },
+      {
+        "rank": 140,
+        "word": "तथैव",
+        "frequency": 240,
+        "percentage": 0.0299
+      },
+      {
+        "rank": 141,
+        "word": "अस्ति",
+        "frequency": 238,
+        "percentage": 0.0296
+      },
+      {
+        "rank": 142,
+        "word": "पि",
+        "frequency": 234,
+        "percentage": 0.0291
+      },
+      {
+        "rank": 143,
+        "word": "हैं",
+        "frequency": 232,
+        "percentage": 0.0289
+      },
+      {
+        "rank": 144,
+        "word": "तत्थ",
+        "frequency": 231,
+        "percentage": 0.0288
+      },
+      {
+        "rank": 145,
+        "word": "ह",
+        "frequency": 231,
+        "percentage": 0.0288
+      },
+      {
+        "rank": 146,
+        "word": "एवेति",
+        "frequency": 230,
+        "percentage": 0.0286
+      },
+      {
+        "rank": 147,
+        "word": "तां",
+        "frequency": 227,
+        "percentage": 0.0283
+      },
+      {
+        "rank": 148,
+        "word": "ज्ञानं",
+        "frequency": 225,
+        "percentage": 0.028
+      },
+      {
+        "rank": 149,
+        "word": "दर्शयति",
+        "frequency": 225,
+        "percentage": 0.028
+      },
+      {
+        "rank": 150,
+        "word": "ना",
+        "frequency": 224,
+        "percentage": 0.0279
+      },
+      {
+        "rank": 151,
+        "word": "दृश्यते",
+        "frequency": 223,
+        "percentage": 0.0278
+      },
+      {
+        "rank": 152,
+        "word": "ही",
+        "frequency": 221,
+        "percentage": 0.0275
+      },
+      {
+        "rank": 153,
+        "word": "इत्याह",
+        "frequency": 220,
+        "percentage": 0.0274
+      },
+      {
+        "rank": 154,
+        "word": "तत",
+        "frequency": 220,
+        "percentage": 0.0274
+      },
+      {
+        "rank": 155,
+        "word": "तदेव",
+        "frequency": 220,
+        "percentage": 0.0274
+      },
+      {
+        "rank": 156,
+        "word": "यतः",
+        "frequency": 220,
+        "percentage": 0.0274
+      },
+      {
+        "rank": 157,
+        "word": "एतेन",
+        "frequency": 219,
+        "percentage": 0.0273
+      },
+      {
+        "rank": 158,
+        "word": "पञ्च",
+        "frequency": 219,
+        "percentage": 0.0273
+      },
+      {
+        "rank": 159,
+        "word": "सन्ति",
+        "frequency": 219,
+        "percentage": 0.0273
+      },
+      {
+        "rank": 160,
+        "word": "अनेन",
+        "frequency": 218,
+        "percentage": 0.0271
+      },
+      {
+        "rank": 161,
+        "word": "इत्यादिना",
+        "frequency": 218,
+        "percentage": 0.0271
+      },
+      {
+        "rank": 162,
+        "word": "किम्",
+        "frequency": 217,
+        "percentage": 0.027
+      },
+      {
+        "rank": 163,
+        "word": "यद्वा",
+        "frequency": 217,
+        "percentage": 0.027
+      },
+      {
+        "rank": 164,
+        "word": "क्रियते",
+        "frequency": 216,
+        "percentage": 0.0269
+      },
+      {
+        "rank": 165,
+        "word": "अहं",
+        "frequency": 215,
+        "percentage": 0.0268
+      },
+      {
+        "rank": 166,
+        "word": "तस्मिन्",
+        "frequency": 215,
+        "percentage": 0.0268
+      },
+      {
+        "rank": 167,
+        "word": "एष",
+        "frequency": 214,
+        "percentage": 0.0266
+      },
+      {
+        "rank": 168,
+        "word": "ततश्च",
+        "frequency": 212,
+        "percentage": 0.0264
+      },
+      {
+        "rank": 169,
+        "word": "उच्यते",
+        "frequency": 211,
+        "percentage": 0.0263
+      },
+      {
+        "rank": 170,
+        "word": "जुहुयात्",
+        "frequency": 211,
+        "percentage": 0.0263
+      },
+      {
+        "rank": 171,
+        "word": "स्वयं",
+        "frequency": 208,
+        "percentage": 0.0259
+      },
+      {
+        "rank": 172,
+        "word": "जो",
+        "frequency": 207,
+        "percentage": 0.0258
+      },
+      {
+        "rank": 173,
+        "word": "तथाहि",
+        "frequency": 207,
+        "percentage": 0.0258
+      },
+      {
+        "rank": 174,
+        "word": "नं",
+        "frequency": 207,
+        "percentage": 0.0258
+      },
+      {
+        "rank": 175,
+        "word": "नहि",
+        "frequency": 202,
+        "percentage": 0.0252
+      },
+      {
+        "rank": 176,
+        "word": "विशेष",
+        "frequency": 202,
+        "percentage": 0.0252
+      },
+      {
+        "rank": 177,
+        "word": "सूत्रे",
+        "frequency": 202,
+        "percentage": 0.0252
+      },
+      {
+        "rank": 178,
+        "word": "उवाच",
+        "frequency": 201,
+        "percentage": 0.025
+      },
+      {
+        "rank": 179,
+        "word": "इस",
+        "frequency": 200,
+        "percentage": 0.0249
+      },
+      {
+        "rank": 180,
+        "word": "उप्पज्जति",
+        "frequency": 199,
+        "percentage": 0.0248
+      },
+      {
+        "rank": 181,
+        "word": "चैव",
+        "frequency": 199,
+        "percentage": 0.0248
+      },
+      {
+        "rank": 182,
+        "word": "सन्",
+        "frequency": 199,
+        "percentage": 0.0248
+      },
+      {
+        "rank": 183,
+        "word": "इत्यस्य",
+        "frequency": 195,
+        "percentage": 0.0243
+      },
+      {
+        "rank": 184,
+        "word": "नापि",
+        "frequency": 195,
+        "percentage": 0.0243
+      },
+      {
+        "rank": 185,
+        "word": "स्म",
+        "frequency": 195,
+        "percentage": 0.0243
+      },
+      {
+        "rank": 186,
+        "word": "तानि",
+        "frequency": 193,
+        "percentage": 0.024
+      },
+      {
+        "rank": 187,
+        "word": "जायते",
+        "frequency": 192,
+        "percentage": 0.0239
+      },
+      {
+        "rank": 188,
+        "word": "खः",
+        "frequency": 191,
+        "percentage": 0.0238
+      },
+      {
+        "rank": 189,
+        "word": "आ",
+        "frequency": 188,
+        "percentage": 0.0234
+      },
+      {
+        "rank": 190,
+        "word": "पक्षे",
+        "frequency": 188,
+        "percentage": 0.0234
+      },
+      {
+        "rank": 191,
+        "word": "केवलं",
+        "frequency": 187,
+        "percentage": 0.0233
+      },
+      {
+        "rank": 192,
+        "word": "देव",
+        "frequency": 187,
+        "percentage": 0.0233
+      },
+      {
+        "rank": 193,
+        "word": "कः",
+        "frequency": 186,
+        "percentage": 0.0232
+      },
+      {
+        "rank": 194,
+        "word": "दश",
+        "frequency": 186,
+        "percentage": 0.0232
+      },
+      {
+        "rank": 195,
+        "word": "उ",
+        "frequency": 185,
+        "percentage": 0.023
+      },
+      {
+        "rank": 196,
+        "word": "यह",
+        "frequency": 185,
+        "percentage": 0.023
+      },
+      {
+        "rank": 197,
+        "word": "नच",
+        "frequency": 184,
+        "percentage": 0.0229
+      },
+      {
+        "rank": 198,
+        "word": "एते",
+        "frequency": 183,
+        "percentage": 0.0228
+      },
+      {
+        "rank": 199,
+        "word": "इत्यादौ",
+        "frequency": 180,
+        "percentage": 0.0224
+      },
+      {
+        "rank": 200,
+        "word": "तच्च",
+        "frequency": 180,
+        "percentage": 0.0224
+      },
+      {
+        "rank": 201,
+        "word": "फलं",
+        "frequency": 180,
+        "percentage": 0.0224
+      },
+      {
+        "rank": 202,
+        "word": "बोध्यम्",
+        "frequency": 180,
+        "percentage": 0.0224
+      },
+      {
+        "rank": 203,
+        "word": "रूप",
+        "frequency": 179,
+        "percentage": 0.0223
+      },
+      {
+        "rank": 204,
+        "word": "प",
+        "frequency": 178,
+        "percentage": 0.0222
+      },
+      {
+        "rank": 205,
+        "word": "भाव",
+        "frequency": 178,
+        "percentage": 0.0222
+      },
+      {
+        "rank": 206,
+        "word": "कुतः",
+        "frequency": 177,
+        "percentage": 0.022
+      },
+      {
+        "rank": 207,
+        "word": "तत्रैव",
+        "frequency": 176,
+        "percentage": 0.0219
+      },
+      {
+        "rank": 208,
+        "word": "नित्यं",
+        "frequency": 175,
+        "percentage": 0.0218
+      },
+      {
+        "rank": 209,
+        "word": "देवा",
+        "frequency": 174,
+        "percentage": 0.0217
+      },
+      {
+        "rank": 210,
+        "word": "काले",
+        "frequency": 173,
+        "percentage": 0.0215
+      },
+      {
+        "rank": 211,
+        "word": "दु",
+        "frequency": 173,
+        "percentage": 0.0215
+      },
+      {
+        "rank": 212,
+        "word": "वर्तते",
+        "frequency": 173,
+        "percentage": 0.0215
+      },
+      {
+        "rank": 213,
+        "word": "स्त्री",
+        "frequency": 173,
+        "percentage": 0.0215
+      },
+      {
+        "rank": 214,
+        "word": "चेन्न",
+        "frequency": 172,
+        "percentage": 0.0214
+      },
+      {
+        "rank": 215,
+        "word": "तेषु",
+        "frequency": 170,
+        "percentage": 0.0212
+      },
+      {
+        "rank": 216,
+        "word": "पा",
+        "frequency": 170,
+        "percentage": 0.0212
+      },
+      {
+        "rank": 217,
+        "word": "तस्याः",
+        "frequency": 169,
+        "percentage": 0.021
+      },
+      {
+        "rank": 218,
+        "word": "दृष्ट्वा",
+        "frequency": 168,
+        "percentage": 0.0209
+      },
+      {
+        "rank": 219,
+        "word": "सत्यं",
+        "frequency": 167,
+        "percentage": 0.0208
+      },
+      {
+        "rank": 220,
+        "word": "परे",
+        "frequency": 166,
+        "percentage": 0.0207
+      },
+      {
+        "rank": 221,
+        "word": "यतो",
+        "frequency": 166,
+        "percentage": 0.0207
+      },
+      {
+        "rank": 222,
+        "word": "होता",
+        "frequency": 165,
+        "percentage": 0.0205
+      },
+      {
+        "rank": 223,
+        "word": "स्वाहा",
+        "frequency": 163,
+        "percentage": 0.0203
+      },
+      {
+        "rank": 224,
+        "word": "वे",
+        "frequency": 162,
+        "percentage": 0.0202
+      },
+      {
+        "rank": 225,
+        "word": "वेति",
+        "frequency": 162,
+        "percentage": 0.0202
+      },
+      {
+        "rank": 226,
+        "word": "कार्य",
+        "frequency": 159,
+        "percentage": 0.0198
+      },
+      {
+        "rank": 227,
+        "word": "तस्या",
+        "frequency": 159,
+        "percentage": 0.0198
+      },
+      {
+        "rank": 228,
+        "word": "होति",
+        "frequency": 159,
+        "percentage": 0.0198
+      },
+      {
+        "rank": 229,
+        "word": "घ",
+        "frequency": 158,
+        "percentage": 0.0197
+      },
+      {
+        "rank": 230,
+        "word": "नि",
+        "frequency": 158,
+        "percentage": 0.0197
+      },
+      {
+        "rank": 231,
+        "word": "तत्रापि",
+        "frequency": 156,
+        "percentage": 0.0194
+      },
+      {
+        "rank": 232,
+        "word": "नैव",
+        "frequency": 155,
+        "percentage": 0.0193
+      },
+      {
+        "rank": 233,
+        "word": "यं",
+        "frequency": 155,
+        "percentage": 0.0193
+      },
+      {
+        "rank": 234,
+        "word": "विद्यते",
+        "frequency": 155,
+        "percentage": 0.0193
+      },
+      {
+        "rank": 235,
+        "word": "सप्त",
+        "frequency": 154,
+        "percentage": 0.0192
+      },
+      {
+        "rank": 236,
+        "word": "करे",
+        "frequency": 153,
+        "percentage": 0.0191
+      },
+      {
+        "rank": 237,
+        "word": "प्राप्नोति",
+        "frequency": 153,
+        "percentage": 0.0191
+      },
+      {
+        "rank": 238,
+        "word": "कर्मणि",
+        "frequency": 152,
+        "percentage": 0.0189
+      },
+      {
+        "rank": 239,
+        "word": "दोषः",
+        "frequency": 152,
+        "percentage": 0.0189
+      },
+      {
+        "rank": 240,
+        "word": "प्र",
+        "frequency": 152,
+        "percentage": 0.0189
+      },
+      {
+        "rank": 241,
+        "word": "हा",
+        "frequency": 152,
+        "percentage": 0.0189
+      },
+      {
+        "rank": 242,
+        "word": "देवता",
+        "frequency": 151,
+        "percentage": 0.0188
+      },
+      {
+        "rank": 243,
+        "word": "कृतं",
+        "frequency": 149,
+        "percentage": 0.0186
+      },
+      {
+        "rank": 244,
+        "word": "त्वया",
+        "frequency": 148,
+        "percentage": 0.0184
+      },
+      {
+        "rank": 245,
+        "word": "येषां",
+        "frequency": 148,
+        "percentage": 0.0184
+      },
+      {
+        "rank": 246,
+        "word": "सर्वेषां",
+        "frequency": 148,
+        "percentage": 0.0184
+      },
+      {
+        "rank": 247,
+        "word": "भी",
+        "frequency": 147,
+        "percentage": 0.0183
+      },
+      {
+        "rank": 248,
+        "word": "शब्द",
+        "frequency": 147,
+        "percentage": 0.0183
+      },
+      {
+        "rank": 249,
+        "word": "सं",
+        "frequency": 147,
+        "percentage": 0.0183
+      },
+      {
+        "rank": 250,
+        "word": "आत्मा",
+        "frequency": 145,
+        "percentage": 0.0181
+      },
+      {
+        "rank": 251,
+        "word": "ए",
+        "frequency": 145,
+        "percentage": 0.0181
+      },
+      {
+        "rank": 252,
+        "word": "नः",
+        "frequency": 145,
+        "percentage": 0.0181
+      },
+      {
+        "rank": 253,
+        "word": "सम्भवति",
+        "frequency": 145,
+        "percentage": 0.0181
+      },
+      {
+        "rank": 254,
+        "word": "तदपि",
+        "frequency": 144,
+        "percentage": 0.0179
+      },
+      {
+        "rank": 255,
+        "word": "तन्न",
+        "frequency": 144,
+        "percentage": 0.0179
+      },
+      {
+        "rank": 256,
+        "word": "प्राप्त",
+        "frequency": 144,
+        "percentage": 0.0179
+      },
+      {
+        "rank": 257,
+        "word": "वयं",
+        "frequency": 144,
+        "percentage": 0.0179
+      },
+      {
+        "rank": 258,
+        "word": "मनः",
+        "frequency": 143,
+        "percentage": 0.0178
+      },
+      {
+        "rank": 259,
+        "word": "इत्यनेन",
+        "frequency": 142,
+        "percentage": 0.0177
+      },
+      {
+        "rank": 260,
+        "word": "अतएव",
+        "frequency": 141,
+        "percentage": 0.0176
+      },
+      {
+        "rank": 261,
+        "word": "किञ्च",
+        "frequency": 140,
+        "percentage": 0.0174
+      },
+      {
+        "rank": 262,
+        "word": "तद्",
+        "frequency": 140,
+        "percentage": 0.0174
+      },
+      {
+        "rank": 263,
+        "word": "त्ति",
+        "frequency": 140,
+        "percentage": 0.0174
+      },
+      {
+        "rank": 264,
+        "word": "किंतु",
+        "frequency": 139,
+        "percentage": 0.0173
+      },
+      {
+        "rank": 265,
+        "word": "क्रमेण",
+        "frequency": 139,
+        "percentage": 0.0173
+      },
+      {
+        "rank": 266,
+        "word": "शक्यते",
+        "frequency": 139,
+        "percentage": 0.0173
+      },
+      {
+        "rank": 267,
+        "word": "षष्ठी",
+        "frequency": 139,
+        "percentage": 0.0173
+      },
+      {
+        "rank": 268,
+        "word": "दो",
+        "frequency": 138,
+        "percentage": 0.0172
+      },
+      {
+        "rank": 269,
+        "word": "प्रतीयते",
+        "frequency": 138,
+        "percentage": 0.0172
+      },
+      {
+        "rank": 270,
+        "word": "प्रथमं",
+        "frequency": 138,
+        "percentage": 0.0172
+      },
+      {
+        "rank": 271,
+        "word": "विद्या",
+        "frequency": 138,
+        "percentage": 0.0172
+      },
+      {
+        "rank": 272,
+        "word": "छे",
+        "frequency": 137,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 273,
+        "word": "तस्स",
+        "frequency": 137,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 274,
+        "word": "नेति",
+        "frequency": 137,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 275,
+        "word": "विधीयते",
+        "frequency": 137,
+        "percentage": 0.0171
+      },
+      {
+        "rank": 276,
+        "word": "नहीं",
+        "frequency": 136,
+        "percentage": 0.0169
+      },
+      {
+        "rank": 277,
+        "word": "वो",
+        "frequency": 136,
+        "percentage": 0.0169
+      },
+      {
+        "rank": 278,
+        "word": "एवञ्च",
+        "frequency": 134,
+        "percentage": 0.0167
+      },
+      {
+        "rank": 279,
+        "word": "जाव",
+        "frequency": 133,
+        "percentage": 0.0166
+      },
+      {
+        "rank": 280,
+        "word": "पदं",
+        "frequency": 133,
+        "percentage": 0.0166
+      },
+      {
+        "rank": 281,
+        "word": "सर्गः",
+        "frequency": 133,
+        "percentage": 0.0166
+      },
+      {
+        "rank": 282,
+        "word": "छ",
+        "frequency": 130,
+        "percentage": 0.0162
+      },
+      {
+        "rank": 283,
+        "word": "यत्तु",
+        "frequency": 130,
+        "percentage": 0.0162
+      },
+      {
+        "rank": 284,
+        "word": "कस्य",
+        "frequency": 128,
+        "percentage": 0.0159
+      },
+      {
+        "rank": 285,
+        "word": "गृह्यते",
+        "frequency": 128,
+        "percentage": 0.0159
+      },
+      {
+        "rank": 286,
+        "word": "सर्वं",
+        "frequency": 127,
+        "percentage": 0.0158
+      },
+      {
+        "rank": 287,
+        "word": "क्रिया",
+        "frequency": 126,
+        "percentage": 0.0157
+      },
+      {
+        "rank": 288,
+        "word": "त्वा",
+        "frequency": 125,
+        "percentage": 0.0156
+      },
+      {
+        "rank": 289,
+        "word": "देवी",
+        "frequency": 124,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 290,
+        "word": "परन्तु",
+        "frequency": 124,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 291,
+        "word": "स्थाने",
+        "frequency": 124,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 292,
+        "word": "हेतुः",
+        "frequency": 124,
+        "percentage": 0.0154
+      },
+      {
+        "rank": 293,
+        "word": "धर्म",
+        "frequency": 123,
+        "percentage": 0.0153
+      },
+      {
+        "rank": 294,
+        "word": "इत्यत",
+        "frequency": 122,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 295,
+        "word": "खो",
+        "frequency": 122,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 296,
+        "word": "था",
+        "frequency": 122,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 297,
+        "word": "रूपं",
+        "frequency": 122,
+        "percentage": 0.0152
+      },
+      {
+        "rank": 298,
+        "word": "तया",
+        "frequency": 121,
+        "percentage": 0.0151
+      },
+      {
+        "rank": 299,
+        "word": "नतु",
+        "frequency": 121,
+        "percentage": 0.0151
+      },
+      {
+        "rank": 300,
+        "word": "यानि",
+        "frequency": 120,
+        "percentage": 0.0149
+      },
+      {
+        "rank": 301,
+        "word": "कारणं",
+        "frequency": 119,
+        "percentage": 0.0148
+      },
+      {
+        "rank": 302,
+        "word": "दोष",
+        "frequency": 119,
+        "percentage": 0.0148
+      },
+      {
+        "rank": 303,
+        "word": "नास्तीति",
+        "frequency": 119,
+        "percentage": 0.0148
+      },
+      {
+        "rank": 304,
+        "word": "यद्",
+        "frequency": 118,
+        "percentage": 0.0147
+      },
+      {
+        "rank": 305,
+        "word": "पुरा",
+        "frequency": 117,
+        "percentage": 0.0146
+      },
+      {
+        "rank": 306,
+        "word": "वाच्यं",
+        "frequency": 117,
+        "percentage": 0.0146
+      },
+      {
+        "rank": 307,
+        "word": "संभवति",
+        "frequency": 117,
+        "percentage": 0.0146
+      },
+      {
+        "rank": 308,
+        "word": "आसीत्",
+        "frequency": 116,
+        "percentage": 0.0144
+      },
+      {
+        "rank": 309,
+        "word": "ज",
+        "frequency": 116,
+        "percentage": 0.0144
+      },
+      {
+        "rank": 310,
+        "word": "किया",
+        "frequency": 115,
+        "percentage": 0.0143
+      },
+      {
+        "rank": 311,
+        "word": "केन",
+        "frequency": 114,
+        "percentage": 0.0142
+      },
+      {
+        "rank": 312,
+        "word": "तस्यैव",
+        "frequency": 114,
+        "percentage": 0.0142
+      },
+      {
+        "rank": 313,
+        "word": "पन",
+        "frequency": 114,
+        "percentage": 0.0142
+      },
+      {
+        "rank": 314,
+        "word": "प्रत्येकं",
+        "frequency": 114,
+        "percentage": 0.0142
+      },
+      {
+        "rank": 315,
+        "word": "लभते",
+        "frequency": 114,
+        "percentage": 0.0142
+      },
+      {
+        "rank": 316,
+        "word": "पु",
+        "frequency": 113,
+        "percentage": 0.0141
+      },
+      {
+        "rank": 317,
+        "word": "प्रथम",
+        "frequency": 113,
+        "percentage": 0.0141
+      },
+      {
+        "rank": 318,
+        "word": "एप",
+        "frequency": 112,
+        "percentage": 0.0139
+      },
+      {
+        "rank": 319,
+        "word": "कुर्यात्",
+        "frequency": 112,
+        "percentage": 0.0139
+      },
+      {
+        "rank": 320,
+        "word": "नव",
+        "frequency": 112,
+        "percentage": 0.0139
+      },
+      {
+        "rank": 321,
+        "word": "अन्यत्र",
+        "frequency": 111,
+        "percentage": 0.0138
+      },
+      {
+        "rank": 322,
+        "word": "किमपि",
+        "frequency": 111,
+        "percentage": 0.0138
+      },
+      {
+        "rank": 323,
+        "word": "तावत्",
+        "frequency": 111,
+        "percentage": 0.0138
+      },
+      {
+        "rank": 324,
+        "word": "तासां",
+        "frequency": 111,
+        "percentage": 0.0138
+      },
+      {
+        "rank": 325,
+        "word": "त्वां",
+        "frequency": 111,
+        "percentage": 0.0138
+      },
+      {
+        "rank": 326,
+        "word": "मन",
+        "frequency": 111,
+        "percentage": 0.0138
+      },
+      {
+        "rank": 327,
+        "word": "अस्मिन्",
+        "frequency": 110,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 328,
+        "word": "पृथक्",
+        "frequency": 110,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 329,
+        "word": "प्रकार",
+        "frequency": 110,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 330,
+        "word": "लभ्यते",
+        "frequency": 110,
+        "percentage": 0.0137
+      },
+      {
+        "rank": 331,
+        "word": "त्या",
+        "frequency": 109,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 332,
+        "word": "नु",
+        "frequency": 109,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 333,
+        "word": "पुत्र",
+        "frequency": 109,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 334,
+        "word": "भाष्ये",
+        "frequency": 109,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 335,
+        "word": "रिति",
+        "frequency": 109,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 336,
+        "word": "वचनं",
+        "frequency": 109,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 337,
+        "word": "विशेषः",
+        "frequency": 109,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 338,
+        "word": "विषये",
+        "frequency": 109,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 339,
+        "word": "संशयः",
+        "frequency": 109,
+        "percentage": 0.0136
+      },
+      {
+        "rank": 340,
+        "word": "तदाह",
+        "frequency": 108,
+        "percentage": 0.0134
+      },
+      {
+        "rank": 341,
+        "word": "प्राप्ते",
+        "frequency": 108,
+        "percentage": 0.0134
+      },
+      {
+        "rank": 342,
+        "word": "सर्वथा",
+        "frequency": 108,
+        "percentage": 0.0134
+      },
+      {
+        "rank": 343,
+        "word": "इत्येवं",
+        "frequency": 107,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 344,
+        "word": "गच्छति",
+        "frequency": 107,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 345,
+        "word": "ज्ञान",
+        "frequency": 107,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 346,
+        "word": "तृतीया",
+        "frequency": 107,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 347,
+        "word": "तेसं",
+        "frequency": 107,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 348,
+        "word": "ददाति",
+        "frequency": 107,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 349,
+        "word": "भगवान्",
+        "frequency": 107,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 350,
+        "word": "सिद्धे",
+        "frequency": 107,
+        "percentage": 0.0133
+      },
+      {
+        "rank": 351,
+        "word": "कर्माणि",
+        "frequency": 106,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 352,
+        "word": "तयोः",
+        "frequency": 106,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 353,
+        "word": "सर्वदा",
+        "frequency": 106,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 354,
+        "word": "हेतु",
+        "frequency": 106,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 355,
+        "word": "ऽपि",
+        "frequency": 106,
+        "percentage": 0.0132
+      },
+      {
+        "rank": 356,
+        "word": "कर",
+        "frequency": 105,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 357,
+        "word": "गत्वा",
+        "frequency": 105,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 358,
+        "word": "जे",
+        "frequency": 105,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 359,
+        "word": "श्रुत्वा",
+        "frequency": 105,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 360,
+        "word": "श्रूयते",
+        "frequency": 105,
+        "percentage": 0.0131
+      },
+      {
+        "rank": 361,
+        "word": "उक्तं",
+        "frequency": 104,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 362,
+        "word": "गृहीत्वा",
+        "frequency": 104,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 363,
+        "word": "चेव",
+        "frequency": 104,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 364,
+        "word": "जाता",
+        "frequency": 104,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 365,
+        "word": "ताः",
+        "frequency": 104,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 366,
+        "word": "पूर्वं",
+        "frequency": 104,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 367,
+        "word": "विषय",
+        "frequency": 104,
+        "percentage": 0.0129
+      },
+      {
+        "rank": 368,
+        "word": "अन्ये",
+        "frequency": 103,
+        "percentage": 0.0128
+      },
+      {
+        "rank": 369,
+        "word": "इत्येव",
+        "frequency": 103,
+        "percentage": 0.0128
+      },
+      {
+        "rank": 370,
+        "word": "ण",
+        "frequency": 103,
+        "percentage": 0.0128
+      },
+      {
+        "rank": 371,
+        "word": "परमं",
+        "frequency": 103,
+        "percentage": 0.0128
+      },
+      {
+        "rank": 372,
+        "word": "भिक्खवे",
+        "frequency": 103,
+        "percentage": 0.0128
+      },
+      {
+        "rank": 373,
+        "word": "घट",
+        "frequency": 102,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 374,
+        "word": "तद्यथा",
+        "frequency": 102,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 375,
+        "word": "द्वितीया",
+        "frequency": 102,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 376,
+        "word": "द्वितीये",
+        "frequency": 102,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 377,
+        "word": "पुरुष",
+        "frequency": 102,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 378,
+        "word": "युक्तम्",
+        "frequency": 102,
+        "percentage": 0.0127
+      },
+      {
+        "rank": 379,
+        "word": "स्थिते",
+        "frequency": 101,
+        "percentage": 0.0126
+      },
+      {
+        "rank": 380,
+        "word": "तौ",
+        "frequency": 100,
+        "percentage": 0.0125
+      },
+      {
+        "rank": 381,
+        "word": "प्रकारेण",
+        "frequency": 100,
+        "percentage": 0.0125
+      },
+      {
+        "rank": 382,
+        "word": "प्रथमः",
+        "frequency": 100,
+        "percentage": 0.0125
+      },
+      {
+        "rank": 383,
+        "word": "वस्तु",
+        "frequency": 100,
+        "percentage": 0.0125
+      },
+      {
+        "rank": 384,
+        "word": "परा",
+        "frequency": 99,
+        "percentage": 0.0123
+      },
+      {
+        "rank": 385,
+        "word": "इयं",
+        "frequency": 98,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 386,
+        "word": "कारण",
+        "frequency": 98,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 387,
+        "word": "द्वितीयः",
+        "frequency": 98,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 388,
+        "word": "पश्यति",
+        "frequency": 98,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 389,
+        "word": "वह",
+        "frequency": 98,
+        "percentage": 0.0122
+      },
+      {
+        "rank": 390,
+        "word": "इत्यपि",
+        "frequency": 97,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 391,
+        "word": "वदन्ति",
+        "frequency": 97,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 392,
+        "word": "वेद",
+        "frequency": 97,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 393,
+        "word": "शब्दस्य",
+        "frequency": 97,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 394,
+        "word": "सिध्यति",
+        "frequency": 97,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 395,
+        "word": "सुखं",
+        "frequency": 97,
+        "percentage": 0.0121
+      },
+      {
+        "rank": 396,
+        "word": "भूत्वा",
+        "frequency": 96,
+        "percentage": 0.012
+      },
+      {
+        "rank": 397,
+        "word": "यस्मिन्",
+        "frequency": 96,
+        "percentage": 0.012
+      },
+      {
+        "rank": 398,
+        "word": "व्याख्या",
+        "frequency": 96,
+        "percentage": 0.012
+      },
+      {
+        "rank": 399,
+        "word": "अन्य",
+        "frequency": 95,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 400,
+        "word": "इदानीं",
+        "frequency": 95,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 401,
+        "word": "तेनैव",
+        "frequency": 95,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 402,
+        "word": "सम्बन्धः",
+        "frequency": 95,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 403,
+        "word": "साधु",
+        "frequency": 95,
+        "percentage": 0.0118
+      },
+      {
+        "rank": 404,
+        "word": "दिति",
+        "frequency": 94,
+        "percentage": 0.0117
+      },
+      {
+        "rank": 405,
+        "word": "मनसा",
+        "frequency": 94,
+        "percentage": 0.0117
+      },
+      {
+        "rank": 406,
+        "word": "सिद्धम्",
+        "frequency": 94,
+        "percentage": 0.0117
+      },
+      {
+        "rank": 407,
+        "word": "काल",
+        "frequency": 93,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 408,
+        "word": "गतः",
+        "frequency": 93,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 409,
+        "word": "प्रत्ययः",
+        "frequency": 93,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 410,
+        "word": "प्रयोगः",
+        "frequency": 93,
+        "percentage": 0.0116
+      },
+      {
+        "rank": 411,
+        "word": "कुतो",
+        "frequency": 92,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 412,
+        "word": "जहा",
+        "frequency": 92,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 413,
+        "word": "पूर्ववत्",
+        "frequency": 92,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 414,
+        "word": "भवतः",
+        "frequency": 92,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 415,
+        "word": "याति",
+        "frequency": 92,
+        "percentage": 0.0115
+      },
+      {
+        "rank": 416,
+        "word": "आदि",
+        "frequency": 91,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 417,
+        "word": "भावे",
+        "frequency": 91,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 418,
+        "word": "स्वयमेव",
+        "frequency": 91,
+        "percentage": 0.0113
+      },
+      {
+        "rank": 419,
+        "word": "अर्थ",
+        "frequency": 90,
+        "percentage": 0.0112
+      },
+      {
+        "rank": 420,
+        "word": "इ",
+        "frequency": 90,
+        "percentage": 0.0112
+      },
+      {
+        "rank": 421,
+        "word": "इत्थं",
+        "frequency": 90,
+        "percentage": 0.0112
+      },
+      {
+        "rank": 422,
+        "word": "एतत्",
+        "frequency": 90,
+        "percentage": 0.0112
+      },
+      {
+        "rank": 423,
+        "word": "कथम्",
+        "frequency": 90,
+        "percentage": 0.0112
+      },
+      {
+        "rank": 424,
+        "word": "केचित्",
+        "frequency": 90,
+        "percentage": 0.0112
+      },
+      {
+        "rank": 425,
+        "word": "भव",
+        "frequency": 90,
+        "percentage": 0.0112
+      },
+      {
+        "rank": 426,
+        "word": "उत",
+        "frequency": 89,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 427,
+        "word": "दिने",
+        "frequency": 89,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 428,
+        "word": "ब्रह्मा",
+        "frequency": 89,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 429,
+        "word": "भवान्",
+        "frequency": 89,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 430,
+        "word": "भा",
+        "frequency": 89,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 431,
+        "word": "यत",
+        "frequency": 89,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 432,
+        "word": "सि",
+        "frequency": 89,
+        "percentage": 0.0111
+      },
+      {
+        "rank": 433,
+        "word": "काम",
+        "frequency": 88,
+        "percentage": 0.011
+      },
+      {
+        "rank": 434,
+        "word": "कृतम्",
+        "frequency": 88,
+        "percentage": 0.011
+      },
+      {
+        "rank": 435,
+        "word": "गम्यते",
+        "frequency": 88,
+        "percentage": 0.011
+      },
+      {
+        "rank": 436,
+        "word": "जातः",
+        "frequency": 88,
+        "percentage": 0.011
+      },
+      {
+        "rank": 437,
+        "word": "तम्",
+        "frequency": 88,
+        "percentage": 0.011
+      },
+      {
+        "rank": 438,
+        "word": "मनो",
+        "frequency": 88,
+        "percentage": 0.011
+      },
+      {
+        "rank": 439,
+        "word": "द्रष्टव्यम्",
+        "frequency": 87,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 440,
+        "word": "परः",
+        "frequency": 87,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 441,
+        "word": "युक्त",
+        "frequency": 87,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 442,
+        "word": "सिद्धं",
+        "frequency": 87,
+        "percentage": 0.0108
+      },
+      {
+        "rank": 443,
+        "word": "अहो",
+        "frequency": 86,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 444,
+        "word": "एतच्च",
+        "frequency": 86,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 445,
+        "word": "जीव",
+        "frequency": 86,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 446,
+        "word": "तैः",
+        "frequency": 86,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 447,
+        "word": "थाय",
+        "frequency": 86,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 448,
+        "word": "परस्य",
+        "frequency": 86,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 449,
+        "word": "प्रकृते",
+        "frequency": 86,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 450,
+        "word": "शब्दः",
+        "frequency": 86,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 451,
+        "word": "श्रुतेः",
+        "frequency": 86,
+        "percentage": 0.0107
+      },
+      {
+        "rank": 452,
+        "word": "कृतः",
+        "frequency": 85,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 453,
+        "word": "चापि",
+        "frequency": 85,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 454,
+        "word": "द्वौ",
+        "frequency": 85,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 455,
+        "word": "भिक्खु",
+        "frequency": 85,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 456,
+        "word": "वाक्यं",
+        "frequency": 85,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 457,
+        "word": "विशिष्ट",
+        "frequency": 85,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 458,
+        "word": "व्याचष्टे",
+        "frequency": 85,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 459,
+        "word": "सम्यक्",
+        "frequency": 85,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 460,
+        "word": "सर्वस्य",
+        "frequency": 85,
+        "percentage": 0.0106
+      },
+      {
+        "rank": 461,
+        "word": "अर्थात्",
+        "frequency": 84,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 462,
+        "word": "उक्त",
+        "frequency": 84,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 463,
+        "word": "एवमेव",
+        "frequency": 84,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 464,
+        "word": "कारणम्",
+        "frequency": 84,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 465,
+        "word": "कोऽपि",
+        "frequency": 84,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 466,
+        "word": "ज्ञानस्य",
+        "frequency": 84,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 467,
+        "word": "धनं",
+        "frequency": 84,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 468,
+        "word": "पिता",
+        "frequency": 84,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 469,
+        "word": "हीति",
+        "frequency": 84,
+        "percentage": 0.0105
+      },
+      {
+        "rank": 470,
+        "word": "देवानां",
+        "frequency": 83,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 471,
+        "word": "प्रमाणं",
+        "frequency": 83,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 472,
+        "word": "वक्तुं",
+        "frequency": 83,
+        "percentage": 0.0103
+      },
+      {
+        "rank": 473,
+        "word": "किमिति",
+        "frequency": 82,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 474,
+        "word": "किल",
+        "frequency": 82,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 475,
+        "word": "कृता",
+        "frequency": 82,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 476,
+        "word": "क्वचित्",
+        "frequency": 82,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 477,
+        "word": "खँ",
+        "frequency": 82,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 478,
+        "word": "तस्मै",
+        "frequency": 82,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 479,
+        "word": "पुरुषः",
+        "frequency": 82,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 480,
+        "word": "प्राक्",
+        "frequency": 82,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 481,
+        "word": "युक्तं",
+        "frequency": 82,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 482,
+        "word": "स्युः",
+        "frequency": 82,
+        "percentage": 0.0102
+      },
+      {
+        "rank": 483,
+        "word": "गते",
+        "frequency": 81,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 484,
+        "word": "चैवं",
+        "frequency": 81,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 485,
+        "word": "धर्मः",
+        "frequency": 81,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 486,
+        "word": "माता",
+        "frequency": 81,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 487,
+        "word": "सु",
+        "frequency": 81,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 488,
+        "word": "स्थितम्",
+        "frequency": 81,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 489,
+        "word": "हेतुमाह",
+        "frequency": 81,
+        "percentage": 0.0101
+      },
+      {
+        "rank": 490,
+        "word": "द्वितीय",
+        "frequency": 80,
+        "percentage": 0.01
+      },
+      {
+        "rank": 491,
+        "word": "भो",
+        "frequency": 80,
+        "percentage": 0.01
+      },
+      {
+        "rank": 492,
+        "word": "सोऽपि",
+        "frequency": 80,
+        "percentage": 0.01
+      },
+      {
+        "rank": 493,
+        "word": "कर्ता",
+        "frequency": 79,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 494,
+        "word": "जाते",
+        "frequency": 79,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 495,
+        "word": "दे",
+        "frequency": 79,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 496,
+        "word": "प्राप्य",
+        "frequency": 79,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 497,
+        "word": "भवतु",
+        "frequency": 79,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 498,
+        "word": "राम",
+        "frequency": 79,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 499,
+        "word": "विधिः",
+        "frequency": 79,
+        "percentage": 0.0098
+      },
+      {
+        "rank": 500,
+        "word": "अव",
+        "frequency": 78,
+        "percentage": 0.0097
+      }
+    ]
+  }
+}
