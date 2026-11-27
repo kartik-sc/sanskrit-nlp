@@ -1,6 +1,5 @@
 outs:
 - md5: c44213d1a6a04ce25e58400755b8ea3a
   size: 2314678
-  isexec: true
   hash: md5
   path: pilot.jsonl
