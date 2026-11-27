@@ -1,0 +1,4 @@
+Corpus,Tokens,Types,TTR (%),Hapax Legomena (V1),Hapax % of Types,Types for 50% Coverage,Types for 90% Coverage,Zipf Exponent (s),Zipf Fit (R^2)
+Raw,1000256,436105,43.60%,375452,86.09%,12416,336080,0.4543,0.7375
+Cleaned V1,793768,392955,49.51%,336431,85.62%,26924,313579,0.4626,0.7474
+Cleaned V2,803139,398164,49.58%,340964,85.63%,27430,317851,0.4622,0.7471
